@@ -1,0 +1,2 @@
+# poisot-betacov
+Two methods
