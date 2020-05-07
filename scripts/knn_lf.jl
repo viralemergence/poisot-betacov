@@ -33,7 +33,7 @@ M = simplify(U[species(B; dims=1),mammals])
 tanimoto(x::Set{T}, y::Set{T}) where {T} = length(x∩y)/length(x∪y)
 
 ## Main loop?
-function knn_virus(train::T, predict::T; k::Integer=3, cutoff::Integer=1) where {T <: BipartiteNetwork}
+function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where {T <: BipartiteNetwork}
     predictions = DataFrame(virus = String[], host = String[], match = Float64[])
     for s in species(predict; dims=1)
         @assert s in species(train)
