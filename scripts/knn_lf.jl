@@ -1,13 +1,7 @@
-import Pkg; Pkg.activate(".")
-
 using CSV
 using DataFrames
 
-using Plots
-pyplot()
-
 using EcologicalNetworks
-using EcologicalNetworksPlots
 
 using StatsBase
 
