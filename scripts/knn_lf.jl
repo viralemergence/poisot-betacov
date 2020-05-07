@@ -33,10 +33,10 @@ M = simplify(U[species(B; dims=1),mammals])
 tanimoto(x::Set{T}, y::Set{T}) where {T} = length(x∩y)/length(x∪y)
 
 ## Main loop?
-function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where {T <: BipartiteNetwork}
+function knn_virus(train::T, predict::T; k::Integer=7, cutoff::Integer=1) where {T <: BipartiteNetwork}
     predictions = DataFrame(virus = String[], host = String[], match = Float64[])
     for s in species(predict; dims=1)
-        @assert s in species(train)
+        @assert s in species(train) "The species $s is absent from the predicted network"
         hosts = train[s,:]
         neighbors = Dict([neighbor => tanimoto(hosts, train[neighbor,:]) for neighbor in filter(x -> x != s, species(train; dims=1))])
         top_k = sort(collect(neighbors), by=x->x[2], rev=true)[1:k]
@@ -157,3 +157,29 @@ CSV.write(
     predictions_lf_meta;
     writeheader=false
 )
+
+## Do some LOO just for fun
+
+#=
+success = 0
+attempts = 0
+k = 8
+for i in interactions(M)
+    global success
+    global attempts
+    K = copy(M)
+    K[i.from, i.to] = false
+    simplify!(K)
+    if richness(K) != richness(M)
+        continue
+    end
+    neighbors = filter(x -> x != i.from, species(K; dims=1))
+    scores = [tanimoto(K[i.from,:], K[neighbor,:]) for neighbor in neighbors]
+    nearest_neighbors = neighbors[StatsBase.partialsortperm(scores, 1:k)]
+    if i.to in keys(degree(simplify(K[nearest_neighbors, :]); dims=2))
+        success += 1
+    end
+    attempts += 1
+end
+@info "$k \t $(success/attempts)"
+=#
