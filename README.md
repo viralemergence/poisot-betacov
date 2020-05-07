@@ -12,5 +12,5 @@ to get the correct packages is:
 import Pkg
 Pkg.activate(".")
 Pkg.instantiate()
-include(joinpath("data", "knn_lf.jl"))
+include(joinpath("scripts", "knn_lf.jl"))
 ~~~
