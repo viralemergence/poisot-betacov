@@ -6,10 +6,12 @@ using EcologicalNetworks
 using StatsBase
 
 ## Load the data and aggregate everything
-data_path = joinpath(pwd(), "data", "interactions", "complete.csv")
-virion = CSV.read(data_path)
+csv_file = download("https://raw.githubusercontent.com/ViromeNet/cleanbats_betacov/master/clean%20data/BatCoV-assoc_clean.csv?token=AAENOAM6NGFDAOTL5IK2UJS6WV5LY")
+virion = CSV.read(csv_file)
 select!(virion, Not(:origin))
-select!(virion, Not(:id))
+select!(virion, Not(:Column1))
+select!(virion, Not(:host_species))
+rename!(virion, :clean_hostnames => :host_species)
 virion = unique(virion)
 
 ## Prepare the network
@@ -22,18 +24,11 @@ for interaction in eachrow(virion)
     U[interaction.virus_genus, interaction.host_species] = true
 end
 
-## Smaller networks
-bats = unique(virion.host_species[findall(virion.host_order .== "Chiroptera")])
-mammals = unique(virion.host_species[findall(virion.host_class .== "Mammalia")])
-
-B = simplify(U[:,bats])
-M = simplify(U[species(B; dims=1),mammals])
-
 ## kNN preparation
 tanimoto(x::Set{T}, y::Set{T}) where {T} = length(x∩y)/length(x∪y)
 
 ## Main loop?
-function knn_virus(train::T, predict::T; k::Integer=7, cutoff::Integer=1) where {T <: BipartiteNetwork}
+function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where {T <: BipartiteNetwork}
     predictions = DataFrame(virus = String[], host = String[], match = Float64[])
     for s in species(predict; dims=1)
         @assert s in species(train) "The species $s is absent from the predicted network"
@@ -58,40 +53,11 @@ predict_path = joinpath(pwd(), "predictions", "knn")
 ispath(predict_path) || mkpath(predict_path)
 
 ## Predict and write
-MtoB = knn_virus(M, B)
-BtoB = knn_virus(B, B)
-MtoM = knn_virus(M, M)
-
-pred_mtob = MtoB[MtoB.virus.=="Betacoronavirus",:]
-select!(pred_mtob, Not(:virus))
-pred_mtob.host = replace.(pred_mtob.host, " "=>"_")
-sort!(pred_mtob, :match, rev=true)
-
-pred_btob = BtoB[BtoB.virus.=="Betacoronavirus",:]
-select!(pred_btob, Not(:virus))
-pred_btob.host = replace.(pred_btob.host, " "=>"_")
-sort!(pred_btob, :match, rev=true)
-
-pred_mtom = MtoM[MtoM.virus.=="Betacoronavirus",:]
-select!(pred_mtom, Not(:virus))
-pred_mtom.host = replace.(pred_mtom.host, " "=>"_")
-sort!(pred_mtom, :match, rev=true)
+knn = knn_virus(U, U)
 
 CSV.write(
-    joinpath(predict_path, "PoisotTanimotoChiropteraToChiropteraPredictions.csv"),
-    pred_btob;
-    writeheader=false
-)
-
-CSV.write(
-    joinpath(predict_path, "PoisotTanimotoMammalsToChiropteraPredictions.csv"),
-    pred_mtob;
-    writeheader=false
-)
-
-CSV.write(
-    joinpath(predict_path, "PoisotTanimotoMammalsToMammalsPredictions.csv"),
-    pred_mtom;
+    joinpath(predict_path, "PoisotTanimoto.csv"),
+    knn;
     writeheader=false
 )
 
@@ -100,63 +66,28 @@ lf_path = joinpath(pwd(), "predictions", "linearfilter")
 ispath(lf_path) || mkpath(lf_path)
 
 ## Linear filtering
-predictions_lf_bats = DataFrame(species=String[], score=Float64[])
-predictions_lf_all = DataFrame(species=String[], score=Float64[])
-predictions_lf_meta = DataFrame(species=String[], score=Float64[])
+predictions_lf = DataFrame(species=String[], score=Float64[])
 
 α = [0.0, 1.0, 1.0, 1.0]
 
-for i in interactions(linearfilter(B; α=α))
-    B[i.from, i.to] && continue
-    i.to ∈ species(B; dims=2) || continue
+for i in interactions(linearfilter(U; α=α))
+    U[i.from, i.to] && continue
+    i.to ∈ species(U; dims=2) || continue
     if i.from == "Betacoronavirus"
-        push!(predictions_lf_bats, 
+        push!(predictions_lf, 
             (replace(i.to, " "=>"_"), i.probability)
         )
     end
 end
 
-for i in interactions(linearfilter(M; α=α))
-    M[i.from, i.to] && continue
-    i.to ∈ species(B; dims=2) || continue
-    if i.from == "Betacoronavirus"
-        push!(predictions_lf_all, 
-            (replace(i.to, " "=>"_"), i.probability)
-        )
-    end
-end
-
-for i in interactions(linearfilter(M; α=α))
-    M[i.from, i.to] && continue
-    i.to ∈ species(M; dims=2) || continue
-    if i.from == "Betacoronavirus"
-        push!(predictions_lf_meta, 
-            (replace(i.to, " "=>"_"), i.probability)
-        )
-    end
-end
-
-sort!(predictions_lf_all, :score, rev=true)
-sort!(predictions_lf_bats, :score, rev=true)
-sort!(predictions_lf_meta, :score, rev=true)
+sort!(predictions_lf, :score, rev=true)
 
 CSV.write(
-    joinpath(lf_path, "PoisotLinearFilterChiropteraToChiropteraPredictions.csv"),
-    predictions_lf_bats;
+    joinpath(lf_path, "PoisotLinearFilter.csv"),
+    predictions_lf;
     writeheader=false
 )
 
-CSV.write(
-    joinpath(lf_path, "PoisotLinearFilterMammalsToChiropteraPredictions.csv"),
-    predictions_lf_all;
-    writeheader=false
-)
-
-CSV.write(
-    joinpath(lf_path, "PoisotLinearFilterMammalsToMammalsPredictions.csv"),
-    predictions_lf_meta;
-    writeheader=false
-)
 
 ## Do some LOO just for fun
 
