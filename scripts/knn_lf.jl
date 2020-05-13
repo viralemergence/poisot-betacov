@@ -1,33 +1,38 @@
 using CSV
 using DataFrames
-
 using EcologicalNetworks
-
 using StatsBase
 
-## Load the data and aggregate everything
-csv_file = download("https://raw.githubusercontent.com/ViromeNet/cleanbats_betacov/master/clean%20data/BatCoV-assoc_clean.csv?token=AAENOAM6NGFDAOTL5IK2UJS6WV5LY")
-virion = CSV.read(csv_file)
-select!(virion, Not(:origin))
-select!(virion, Not(:Column1))
-select!(virion, Not(:host_species))
-rename!(virion, :clean_hostnames => :host_species)
-virion = unique(virion)
+#--- Load the data and aggregate everything
 
-## Prepare the network
-hosts = unique(virion.host_species)
-viruses = unique(virion.virus_genus)
-A = zeros(Bool, (length(viruses), length(hosts)))
-U = BipartiteNetwork(A, viruses, hosts)
+virion = CSV.read(joinpath("data", "virionette.csv"))
 
-for interaction in eachrow(virion)
-    U[interaction.virus_genus, interaction.host_species] = true
+#--- Function to make a network
+
+function mknet(df)
+    hosts = unique(df.host_species)
+    viruses = unique(df.virus_genus)
+    A = zeros(Bool, (length(viruses), length(hosts)))
+    U = BipartiteNetwork(A, viruses, hosts)
+
+    for interaction in eachrow(df)
+        U[interaction.virus_genus, interaction.host_species] = true
+    end
+    return simplify(U)
 end
 
-## kNN preparation
-tanimoto(x::Set{T}, y::Set{T}) where {T} = length(x∩y)/length(x∪y)
+#--- Prepare the network
 
-## Main loop?
+ALL = mknet(virion)
+
+BATS = mknet(virion[virion.host_order.=="Chiroptera", :])
+
+#--- kNN preparation
+
+function tanimoto(x::Set{T}, y::Set{T}) where {T}
+    length(x∩y)/length(x∪y)
+end
+
 function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where {T <: BipartiteNetwork}
     predictions = DataFrame(virus = String[], host = String[], match = Float64[])
     for s in species(predict; dims=1)
@@ -47,54 +52,124 @@ function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where 
     return predictions
 end
 
+#--- Make the folders
 
-## Write this shit
-predict_path = joinpath(pwd(), "predictions", "knn")
-ispath(predict_path) || mkpath(predict_path)
-
-## Predict and write
-knn = knn_virus(U, U)
-
-CSV.write(
-    joinpath(predict_path, "PoisotTanimoto.csv"),
-    knn;
-    writeheader=false
-)
-
-## Linear filtering path
+knn_path = joinpath(pwd(), "predictions", "knn")
+ispath(knn_path) || mkpath(knn_path)
 lf_path = joinpath(pwd(), "predictions", "linearfilter")
 ispath(lf_path) || mkpath(lf_path)
 
-## Linear filtering
-predictions_lf = DataFrame(species=String[], score=Float64[])
+#--- Linear filtering
+
+lf_bats = DataFrame(species=String[], score=Float64[])
+lf_all = DataFrame(species=String[], score=Float64[])
 
 α = [0.0, 1.0, 1.0, 1.0]
 
-for i in interactions(linearfilter(U; α=α))
-    U[i.from, i.to] && continue
-    i.to ∈ species(U; dims=2) || continue
+for i in interactions(linearfilter(BATS; α=α))
+    BATS[i.from, i.to] && continue
+    i.to ∈ species(BATS; dims=2) || continue
     if i.from == "Betacoronavirus"
-        push!(predictions_lf, 
+        push!(lf_bats,
             (replace(i.to, " "=>"_"), i.probability)
         )
     end
 end
 
-sort!(predictions_lf, :score, rev=true)
+for i in interactions(linearfilter(ALL; α=α))
+    ALL[i.from, i.to] && continue
+    i.to ∈ species(ALL; dims=2) || continue
+    if i.from == "Betacoronavirus"
+        push!(lf_all,
+            (replace(i.to, " "=>"_"), i.probability)
+        )
+    end
+end
+
+sort!(lf_all, :score, rev=true)
+sort!(lf_bats, :score, rev=true)
 
 CSV.write(
-    joinpath(lf_path, "PoisotLinearFilter.csv"),
-    predictions_lf;
+    joinpath(lf_path, "PoisotLinearFilter-Bats.csv"),
+    lf_bats;
     writeheader=false
 )
 
+CSV.write(
+    joinpath(lf_path, "PoisotLinearFilter-Mammals.csv"),
+    lf_all;
+    writeheader=false
+)
+
+#--- kNN for hosts AND viruses
+
+function Base.transpose(N::T) where {T <: EcologicalNetworks.AbstractBipartiteNetwork}
+    B = zeros(eltype(N.A), reverse(size(N)))
+    Y = typeof(N)(B, species(N; dims=2), species(N; dims=1))
+    for i in interactions(N)
+        Y[i.to, i.from] = N[i.from, i.to]
+    end
+    return Y
+end
+
+host_knn_bats = knn_virus(transpose(BATS), transpose(BATS))
+
+rename!(host_knn_bats, :host => :virusname)
+rename!(host_knn_bats, :virus => :hostname)
+
+host_knn_bats = host_knn_bats[host_knn_bats.virusname .== "Betacoronavirus", :]
+sort!(host_knn_bats, :match, rev=true)
+
+
+
+host_knn_all = knn_virus(transpose(ALL), transpose(ALL))
+
+rename!(host_knn_all, :host => :virusname)
+rename!(host_knn_all, :virus => :hostname)
+
+host_knn_all = host_knn_all[host_knn_all.virusname .== "Betacoronavirus", :]
+sort!(host_knn_all, :match, rev=true)
+
+CSV.write(
+    joinpath(knn_path, "PoisotTanimotoHosts-Bats.csv"),
+    host_knn_bats;
+    writeheader=false
+)
+
+CSV.write(
+    joinpath(knn_path, "PoisotTanimotoHosts-Mammals.csv"),
+    host_knn_all;
+    writeheader=false
+)
+
+knn_bats = knn_virus(BATS, BATS)
+knn_bats = knn_bats[knn_bats.virus .== "Betacoronavirus", :]
+sort!(knn_bats, :match, rev=true)
+
+knn_all = knn_virus(ALL, ALL)
+knn_all = knn_all[knn_all.virus .== "Betacoronavirus", :]
+sort!(knn_all, :match, rev=true)
+
+CSV.write(
+    joinpath(knn_path, "PoisotTanimotoVirus-Bats.csv"),
+    knn_bats;
+    writeheader=false
+)
+
+CSV.write(
+    joinpath(knn_path, "PoisotTanimotoVirus-Mammals.csv"),
+    knn_all;
+    writeheader=false
+)
 
 ## Do some LOO just for fun
+# UPDATE This was not fun
 
 #=
 success = 0
 attempts = 0
-k = 8
+k = 11
+M = transpose(U)
 for i in interactions(M)
     global success
     global attempts
