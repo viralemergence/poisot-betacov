@@ -42,7 +42,7 @@ function knn_virus(train::T, predict::T; k::Integer=5, cutoff::Integer=1) where 
         hosts_count = StatsBase.countmap(vcat(collect.([predict[n.first,:] for n in top_k])...))
         likely = filter(p -> p.second >= cutoff, sort(collect(hosts_count), by=x->x[2], rev=true))
         for l in likely
-            l.first ∈ predict[s, :] && continue
+            #l.first ∈ predict[s, :] && continue
             push!(predictions,
                 (s, l.first, l.second/k)
             )
@@ -61,24 +61,24 @@ ispath(predict_path) || mkpath(predict_path)
 lf_bats = DataFrame(species=String[], score=Float64[])
 lf_all = DataFrame(species=String[], score=Float64[])
 
-α = [0.0, 1.0, 1.0, 1.0]
+α = [0.25, 1.0, 1.0, 1.0]
 
 for i in interactions(linearfilter(BATS; α=α))
-    BATS[i.from, i.to] && continue
+    #BATS[i.from, i.to] && continue
     i.to ∈ species(BATS; dims=2) || continue
     if i.from == "Betacoronavirus"
         push!(lf_bats,
-            (replace(i.to, " "=>"_"), i.probability)
+            (i.to, i.probability)
         )
     end
 end
 
 for i in interactions(linearfilter(ALL; α=α))
-    ALL[i.from, i.to] && continue
+    #ALL[i.from, i.to] && continue
     i.to ∈ species(ALL; dims=2) || continue
     if i.from == "Betacoronavirus"
         push!(lf_all,
-            (replace(i.to, " "=>"_"), i.probability)
+            (i.to, i.probability)
         )
     end
 end

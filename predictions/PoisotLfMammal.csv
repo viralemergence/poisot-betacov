@@ -1,601 +1,711 @@
-Ovis_aries,0.152442800669086
-Capra_hircus,0.1236362163069461
-Felis_catus,0.11540576363204896
-Macaca_mulatta,0.11540576363204896
-Apodemus_sylvaticus,0.10717531095715185
-Equus_asinus,0.10717531095715185
-Sciurus_carolinensis,0.10306008461970328
-Macaca_fascicularis,0.10306008461970328
-Odocoileus_virginianus,0.09894485828225474
-Papio_ursinus,0.09482963194480618
-Pongo_pygmaeus,0.09482963194480618
-Rattus_rattus,0.09482963194480618
-Aepyceros_melampus,0.09482963194480618
-Cervus_elaphus,0.09482963194480618
-Connochaetes_taurinus,0.09482963194480618
-Rangifer_tarandus,0.09482963194480618
-Kobus_ellipsiprymnus,0.09482963194480618
-Syncerus_caffer,0.09482963194480618
-Procyon_lotor,0.09482963194480618
-Microtus_agrestis,0.09071440560735763
-Papio_cynocephalus,0.09071440560735763
-Odocoileus_hemionus,0.09071440560735763
-Artibeus_jamaicensis,0.08659917926990907
-Gorilla_gorilla,0.08659917926990907
-Capreolus_capreolus,0.08659917926990907
-Dama_dama,0.08659917926990907
-Saimiri_sciureus,0.08659917926990907
-Panthera_leo,0.08659917926990907
-Aotus_trivirgatus,0.08659917926990907
-Taurotragus_oryx,0.08659917926990907
-Tragelaphus_strepsiceros,0.08659917926990907
-Vulpes_velox,0.08659917926990907
-Tatera_indica,0.08659917926990907
-Crocuta_crocuta,0.0824839529324605
-Desmodus_rotundus,0.0824839529324605
-Glossophaga_soricina,0.0824839529324605
-Molossus_rufus,0.0824839529324605
-Scotophilus_kuhlii,0.0824839529324605
-Sturnira_lilium,0.0824839529324605
-Apodemus_flavicollis,0.0824839529324605
-Alcelaphus_buselaphus,0.0824839529324605
-Alces_alces,0.0824839529324605
-Bison_bison,0.0824839529324605
-Marmota_monax,0.0824839529324605
-Macropus_giganteus,0.0824839529324605
-Redunca_arundinum,0.0824839529324605
-Eudorcas_thomsonii,0.0824839529324605
-Giraffa_camelopardalis,0.0824839529324605
-Oryx_leucoryx,0.0824839529324605
-Puma_concolor,0.0824839529324605
-Cercopithecus_mona,0.0824839529324605
-Antilocapra_americana,0.0824839529324605
-Phyllostomus_hastatus,0.0824839529324605
-Proechimys_guyannensis,0.0824839529324605
-Sigmodon_hispidus,0.0824839529324605
-Canis_mesomelas,0.07836872659501196
-Eptesicus_fuscus,0.07836872659501196
-Myotis_lucifugus,0.07836872659501196
-Myotis_nigricans,0.07836872659501196
-Neovison_vison,0.07836872659501196
-Phoca_vitulina,0.07836872659501196
-Tadarida_brasiliensis,0.07836872659501196
-Callithrix_jacchus,0.07836872659501196
-Papio_hamadryas,0.07836872659501196
-Microtus_arvalis,0.07836872659501196
-Oryx_gazella,0.07836872659501196
-Elephas_maximus,0.07836872659501196
-Gorilla_beringei,0.07836872659501196
-Macaca_radiata,0.07836872659501196
-Papio_anubis,0.07836872659501196
-Bos_grunniens,0.07836872659501196
-Erythrocebus_patas,0.07836872659501196
-Felis_silvestris,0.07836872659501196
-Lontra_canadensis,0.07836872659501196
-Mastomys_natalensis,0.07836872659501196
-Mesocricetus_auratus,0.07836872659501196
-Urocyon_cinereoargenteus,0.07836872659501196
-Cercopithecus_ascanius,0.07836872659501196
-Antidorcas_marsupialis,0.07836872659501196
-Cricetomys_gambianus,0.07836872659501196
-Sciurus_vulgaris,0.07836872659501196
-Peromyscus_maniculatus,0.07836872659501196
-Spermophilus_beecheyi,0.07836872659501196
-Acinonyx_jubatus,0.07836872659501196
-Arvicanthis_niloticus,0.07836872659501196
-Bradypus_variegatus,0.07836872659501196
-Choloepus_hoffmanni,0.07836872659501196
-Damaliscus_lunatus,0.07836872659501196
-Hippotragus_niger,0.07836872659501196
-Meriones_hurrianae,0.07836872659501196
-Ovis_canadensis,0.07836872659501196
-Microtus_pennsylvanicus,0.07836872659501196
-Didelphis_marsupialis,0.07836872659501196
-Lepus_californicus,0.07836872659501196
-Mephitis_mephitis,0.07836872659501196
-Myotis_septentrionalis,0.07836872659501196
-Proechimys_semispinosus,0.07836872659501196
-Sciurus_niger,0.07836872659501196
-Sylvilagus_audubonii,0.07836872659501196
-Uroderma_bilobatum,0.07836872659501196
-Canis_latrans,0.07836872659501196
-Vulpes_vulpes,0.07836872659501196
-Carollia_brevicauda,0.07425350025756339
-Chaerephon_pumilus,0.07425350025756339
-Hipposideros_pomona,0.07425350025756339
-Leopardus_pardalis,0.07425350025756339
-Murina_leucogaster,0.07425350025756339
-Chlorocebus_sabaeus,0.07425350025756339
-Bos_frontalis,0.07425350025756339
-Hippotragus_equinus,0.07425350025756339
-Martes_pennanti,0.07425350025756339
-Ovis_dalli,0.07425350025756339
-Cephalophus_dorsalis,0.07425350025756339
-Cephalophus_leucogaster,0.07425350025756339
-Equus_burchellii,0.07425350025756339
-Ursus_americanus,0.07425350025756339
-Ursus_maritimus,0.07425350025756339
-Hypsignathus_monstrosus,0.07425350025756339
-Pteropus_poliocephalus,0.07425350025756339
-Pteropus_scapulatus,0.07425350025756339
-Canis_simensis,0.07425350025756339
-Lycaon_pictus,0.07425350025756339
-Semnopithecus_entellus,0.07425350025756339
-Sylvicapra_grimmia,0.07425350025756339
-Sylvilagus_brasiliensis,0.07425350025756339
-Tamiasciurus_hudsonicus,0.07425350025756339
-Gerbilliscus_kempi,0.07425350025756339
-Microtus_californicus,0.07425350025756339
-Microtus_oeconomus,0.07425350025756339
-Myodes_rutilus,0.07425350025756339
-Oligoryzomys_nigripes,0.07425350025756339
-Peromyscus_truei,0.07425350025756339
-Spermophilus_richardsonii,0.07425350025756339
-Ceratotherium_simum,0.07425350025756339
-Gazella_gazella,0.07425350025756339
-Loxodonta_africana,0.07425350025756339
-Macropus_agilis,0.07425350025756339
-Nanger_granti,0.07425350025756339
-Nycteris_gambiensis,0.07425350025756339
-Mandrillus_sphinx,0.07425350025756339
-Atelerix_albiventris,0.07425350025756339
-Bradypus_tridactylus,0.07425350025756339
-Dasypus_novemcinctus,0.07425350025756339
-Lepus_americanus,0.07425350025756339
-Myotis_keenii,0.07425350025756339
-Peromyscus_gossypinus,0.07425350025756339
-Peromyscus_leucopus,0.07425350025756339
-Philander_opossum,0.07425350025756339
-Tamandua_tetradactyla,0.07425350025756339
-Didelphis_virginiana,0.07425350025756339
-Myocastor_coypus,0.07425350025756339
-Molossus_molossus,0.07425350025756339
-Tamias_striatus,0.07425350025756339
-Cynomops_abrasus,0.07013827392011482
-Cynomops_planirostris,0.07013827392011482
-Hipposideros_abae,0.07013827392011482
-Hipposideros_bicolor,0.07013827392011482
-Hipposideros_larvatus,0.07013827392011482
-Miniopterus_inflatus,0.07013827392011482
-Myotis_blythii,0.07013827392011482
-Myotis_myotis,0.07013827392011482
-Myotis_nattereri,0.07013827392011482
-Myotis_riparius,0.07013827392011482
-Myotis_velifer,0.07013827392011482
-Myotis_volans,0.07013827392011482
-Pipistrellus_subflavus,0.07013827392011482
-Sorex_araneus,0.07013827392011482
-Suncus_murinus,0.07013827392011482
-Bandicota_indica,0.07013827392011482
-Rattus_exulans,0.07013827392011482
-Rattus_tiomanicus,0.07013827392011482
-Ateles_geoffroyi,0.07013827392011482
-Bos_javanicus,0.07013827392011482
-Oryx_beisa,0.07013827392011482
-Ovibos_moschatus,0.07013827392011482
-Macaca_fuscata,0.07013827392011482
-Macaca_nemestrina,0.07013827392011482
-Ammotragus_lervia,0.07013827392011482
-Bison_bonasus,0.07013827392011482
-Capra_ibex,0.07013827392011482
-Cephalophus_nigrifrons,0.07013827392011482
-Cephalophus_weynsi,0.07013827392011482
-Cystophora_cristata,0.07013827392011482
-Lobodon_carcinophaga,0.07013827392011482
-Pagophilus_groenlandicus,0.07013827392011482
-Sylvilagus_floridanus,0.07013827392011482
-Pteropus_conspicillatus,0.07013827392011482
-Pteropus_hypomelanus,0.07013827392011482
-Pteropus_lylei,0.07013827392011482
-Pteropus_vampyrus,0.07013827392011482
-Colobus_guereza,0.07013827392011482
-Trachypithecus_cristatus,0.07013827392011482
-Tragelaphus_imberbis,0.07013827392011482
-Urocyon_littoralis,0.07013827392011482
-Chlorocebus_pygerythrus,0.07013827392011482
-Connochaetes_gnou,0.07013827392011482
-Lepus_europaeus,0.07013827392011482
-Rhombomys_opimus,0.07013827392011482
-Erethizon_dorsatum,0.07013827392011482
-Marmota_flaviventris,0.07013827392011482
-Myodes_gapperi,0.07013827392011482
-Neotoma_fuscipes,0.07013827392011482
-Sciurus_griseus,0.07013827392011482
-Antilope_cervicapra,0.07013827392011482
-Axis_axis,0.07013827392011482
-Calomys_callosus,0.07013827392011482
-Canis_adustus,0.07013827392011482
-Cervus_nippon,0.07013827392011482
-Diceros_bicornis,0.07013827392011482
-Eumetopias_jubatus,0.07013827392011482
-Macropus_robustus,0.07013827392011482
-Oreamnos_americanus,0.07013827392011482
-Oryzomys_megacephalus,0.07013827392011482
-Philantomba_monticola,0.07013827392011482
-Cercopithecus_nictitans,0.07013827392011482
-Lophocebus_albigena,0.07013827392011482
-Pan_paniscus,0.07013827392011482
-Hylobates_lar,0.07013827392011482
-Caracal_caracal,0.07013827392011482
-Lynx_rufus,0.07013827392011482
-Mandrillus_leucophaeus,0.07013827392011482
-Panthera_pardus,0.07013827392011482
-Alouatta_caraya,0.07013827392011482
-Ammospermophilus_nelsoni,0.07013827392011482
-Callithrix_leucippe,0.07013827392011482
-Caluromys_philander,0.07013827392011482
-Dasyprocta_leporina,0.07013827392011482
-Dasyprocta_punctata,0.07013827392011482
-Heteromys_anomalus,0.07013827392011482
-Hydromys_chrysogaster,0.07013827392011482
-Lasiurus_cinereus,0.07013827392011482
-Oryzomys_laticeps,0.07013827392011482
-Papio_papio,0.07013827392011482
-Phyllostomus_discolor,0.07013827392011482
-Platyrrhinus_helleri,0.07013827392011482
-Potos_flavus,0.07013827392011482
-Spermophilus_tridecemlineatus,0.07013827392011482
-Tolypeutes_matacus,0.07013827392011482
-Trichosurus_vulpecula,0.07013827392011482
-Zygodontomys_brevicauda,0.07013827392011482
-Tragelaphus_scriptus,0.07013827392011482
-Ichneumia_albicauda,0.07013827392011482
-Lemur_catta,0.07013827392011482
-Mus_booduga,0.07013827392011482
-Alouatta_palliata,0.07013827392011482
-Alouatta_pigra,0.07013827392011482
-Anoura_geoffroyi,0.07013827392011482
-Artibeus_cinereus,0.07013827392011482
-Barbastella_barbastellus,0.07013827392011482
-Lemniscomys_striatus,0.07013827392011482
-Macaca_sinica,0.07013827392011482
-Mastomys_erythroleucus,0.07013827392011482
-Microtus_gregalis,0.07013827392011482
-Mormoops_megalophylla,0.07013827392011482
-Myotis_mystacinus,0.07013827392011482
-Natalus_tumidirostris,0.07013827392011482
-Plecotus_auritus,0.07013827392011482
-Taphozous_melanopogon,0.07013827392011482
-Lepus_timidus,0.07013827392011482
-Lophuromys_sikapusi,0.07013827392011482
-Rhinolophus_eloquens,0.07013827392011482
-Metachirus_nudicaudatus,0.07013827392011482
-Otomys_tropicalis,0.07013827392011482
-Leopardus_geoffroyi,0.07013827392011482
-Anoura_caudifer,0.06602304758266628
-Apodemus_chevrieri,0.06602304758266628
-Cardioderma_cor,0.06602304758266628
-Chalinolobus_gouldii,0.06602304758266628
-Chalinolobus_morio,0.06602304758266628
-Crocidura_attenuata,0.06602304758266628
-Deomys_ferrugineus,0.06602304758266628
-Falsistrellus_mackenziei,0.06602304758266628
-Hipposideros_diadema,0.06602304758266628
-Hipposideros_gigas,0.06602304758266628
-Hipposideros_lekaguli,0.06602304758266628
-Hipposideros_vittatus,0.06602304758266628
-Lichonycteris_obscura,0.06602304758266628
-Lonchorhina_aurita,0.06602304758266628
-Mesophylla_macconnelli,0.06602304758266628
-Miniopterus_australis,0.06602304758266628
-Miniopterus_magnater,0.06602304758266628
-Miniopterus_natalensis,0.06602304758266628
-Miniopterus_pusillus,0.06602304758266628
-Mustela_putorius,0.06602304758266628
-Myotis_brandtii,0.06602304758266628
-Myotis_capaccinii,0.06602304758266628
-Myotis_davidii,0.06602304758266628
-Myotis_horsfieldii,0.06602304758266628
-Myotis_longipes,0.06602304758266628
-Myotis_macropus,0.06602304758266628
-Myotis_punicus,0.06602304758266628
-Mystacina_tuberculata,0.06602304758266628
-Neoromicia_nanus,0.06602304758266628
-Nyctalus_lasiopterus,0.06602304758266628
-Nyctalus_plancyi,0.06602304758266628
-Pipistrellus_coromandra,0.06602304758266628
-Pipistrellus_inexspectatus,0.06602304758266628
-Puma_yagouaroundi,0.06602304758266628
-Rhinolophus_capensis,0.06602304758266628
-Rhinolophus_coelophyllus,0.06602304758266628
-Rhinolophus_megaphyllus,0.06602304758266628
-Rhinolophus_shameli,0.06602304758266628
-Rhinolophus_simulator,0.06602304758266628
-Rhinolophus_stheno,0.06602304758266628
-Scotophilus_nux,0.06602304758266628
-Sturnira_erythromos,0.06602304758266628
-Tylonycteris_robustula,0.06602304758266628
-Vespadelus_baverstocki,0.06602304758266628
-Vespadelus_regulus,0.06602304758266628
-Delphinapterus_leucas,0.06602304758266628
-Meles_meles,0.06602304758266628
-Rusa_timorensis,0.06602304758266628
-Dorcopsis_muelleri,0.06602304758266628
-Macaca_arctoides,0.06602304758266628
-Macaca_cyclopis,0.06602304758266628
-Macropus_parma,0.06602304758266628
-Rupicapra_rupicapra,0.06602304758266628
-Equus_hemionus,0.06602304758266628
-Leptonychotes_weddellii,0.06602304758266628
-Mustela_lutreola,0.06602304758266628
-Phocoena_spinipinnis,0.06602304758266628
-Dobsonia_anderseni,0.06602304758266628
-Pteropus_admiralitatum,0.06602304758266628
-Pteropus_capistratus,0.06602304758266628
-Pteropus_neohibernicus,0.06602304758266628
-Aotus_azarae,0.06602304758266628
-Cerdocyon_thous,0.06602304758266628
-Delphinus_delphis,0.06602304758266628
-Gazella_dorcas,0.06602304758266628
-Globicephala_melas,0.06602304758266628
-Halichoerus_grypus,0.06602304758266628
-Lycalopex_gymnocercus,0.06602304758266628
-Phocoena_phocoena,0.06602304758266628
-Pseudois_nayaur,0.06602304758266628
-Pusa_sibirica,0.06602304758266628
-Stenella_coeruleoalba,0.06602304758266628
-Taxidea_taxus,0.06602304758266628
-Tursiops_truncatus,0.06602304758266628
-Cercopithecus_mitis,0.06602304758266628
-Cricetus_cricetus,0.06602304758266628
-Mustela_nigripes,0.06602304758266628
-Ozotoceros_bezoarticus,0.06602304758266628
-Lepus_capensis,0.06602304758266628
-Sylvilagus_bachmani,0.06602304758266628
-Arvicola_scherman,0.06602304758266628
-Castor_fiber,0.06602304758266628
-Cercopithecus_petaurista,0.06602304758266628
-Cricetomys_emini,0.06602304758266628
-Cynomys_ludovicianus,0.06602304758266628
-Funisciurus_anerythrus,0.06602304758266628
-Funisciurus_congicus,0.06602304758266628
-Heliosciurus_rufobrachium,0.06602304758266628
-Lynx_lynx,0.06602304758266628
-Meriones_libycus,0.06602304758266628
-Myodes_rufocanus,0.06602304758266628
-Oligoryzomys_flavescens,0.06602304758266628
-Oryzomys_angouya,0.06602304758266628
-Spermophilus_fulvus,0.06602304758266628
-Neotoma_cinerea,0.06602304758266628
-Perognathus_parvus,0.06602304758266628
-Peromyscus_boylii,0.06602304758266628
-Spermophilus_columbianus,0.06602304758266628
-Spermophilus_lateralis,0.06602304758266628
-Tamias_amoenus,0.06602304758266628
-Tamias_minimus,0.06602304758266628
-Tamias_umbrinus,0.06602304758266628
-Canis_aureus,0.06602304758266628
-Capra_pyrenaica,0.06602304758266628
-Gazella_subgutturosa,0.06602304758266628
-Genetta_maculata,0.06602304758266628
-Macropus_fuliginosus,0.06602304758266628
-Macropus_rufus,0.06602304758266628
-Nycteris_nana,0.06602304758266628
-Otomys_irroratus,0.06602304758266628
-Ourebia_ourebi,0.06602304758266628
-Redunca_fulvorufula,0.06602304758266628
-Syconycteris_australis,0.06602304758266628
-Thryonomys_swinderianus,0.06602304758266628
-Tragelaphus_angasii,0.06602304758266628
-Trachypithecus_obscurus,0.06602304758266628
-Cercocebus_agilis,0.06602304758266628
-Macaca_maura,0.06602304758266628
-Macaca_nigra,0.06602304758266628
-Macaca_ochreata,0.06602304758266628
-Macaca_tonkeana,0.06602304758266628
-Lagothrix_lagotricha,0.06602304758266628
-Lynx_pardinus,0.06602304758266628
-Mus_spicilegus,0.06602304758266628
-Cercocebus_atys,0.06602304758266628
-Cercocebus_galeritus,0.06602304758266628
-Cercopithecus_cephus,0.06602304758266628
-Cercopithecus_neglectus,0.06602304758266628
-Miopithecus_talapoin,0.06602304758266628
-Akodon_azarae,0.06602304758266628
-Alouatta_seniculus,0.06602304758266628
-Carollia_subrufa,0.06602304758266628
-Cercopithecus_pogonias,0.06602304758266628
-Choloepus_didactylus,0.06602304758266628
-Coendou_prehensilis,0.06602304758266628
-Cuniculus_paca,0.06602304758266628
-Galago_senegalensis,0.06602304758266628
-Glossophaga_commissarisi,0.06602304758266628
-Hoplomys_gymnurus,0.06602304758266628
-Melanomys_caliginosus,0.06602304758266628
-Mirounga_leonina,0.06602304758266628
-Oryzomys_alfaroi,0.06602304758266628
-Pithecia_pithecia,0.06602304758266628
-Proechimys_guairae,0.06602304758266628
-Rhynchonycteris_naso,0.06602304758266628
-Saguinus_midas,0.06602304758266628
-Sciurus_granatensis,0.06602304758266628
-Sciurus_variegatoides,0.06602304758266628
-Sturnira_ludovici,0.06602304758266628
-Ursus_arctos,0.06602304758266628
-Blastocerus_dichotomus,0.06602304758266628
-Boselaphus_tragocamelus,0.06602304758266628
-Muntiacus_muntjak,0.06602304758266628
-Phacochoerus_aethiopicus,0.06602304758266628
-Procapra_gutturosa,0.06602304758266628
-Raphicerus_sharpei,0.06602304758266628
-Rusa_unicolor,0.06602304758266628
-Saiga_tatarica,0.06602304758266628
-Phacochoerus_africanus,0.06602304758266628
-Potamochoerus_porcus,0.06602304758266628
-Eulemur_albifrons,0.06602304758266628
-Eulemur_macaco,0.06602304758266628
-Glis_glis,0.06602304758266628
-Macaca_sylvanus,0.06602304758266628
-Varecia_variegata,0.06602304758266628
-Cephalophus_callipygus,0.06602304758266628
-Mus_setulosus,0.06602304758266628
-Myonycteris_torquata,0.06602304758266628
-Akodon_montensis,0.06602304758266628
-Apodemus_argenteus,0.06602304758266628
-Apodemus_speciosus,0.06602304758266628
-Artibeus_toltecus,0.06602304758266628
-Arvicola_amphibius,0.06602304758266628
-Ateles_paniscus,0.06602304758266628
-Calomys_musculinus,0.06602304758266628
-Colobus_polykomos,0.06602304758266628
-Desmodillus_auricularis,0.06602304758266628
-Dipodomys_heermanni,0.06602304758266628
-Dipodomys_nitratoides,0.06602304758266628
-Funambulus_tristriatus,0.06602304758266628
-Hipposideros_cineraceus,0.06602304758266628
-Hipposideros_lankadiva,0.06602304758266628
-Hipposideros_speoris,0.06602304758266628
-Macroglossus_minimus,0.06602304758266628
-Madromys_blanfordi,0.06602304758266628
-Mimon_crenulatum,0.06602304758266628
-Murina_aurata,0.06602304758266628
-Myotis_macrodactylus,0.06602304758266628
-Natalus_stramineus,0.06602304758266628
-Ondatra_zibethicus,0.06602304758266628
-Onychomys_torridus,0.06602304758266628
-Orcinus_orca,0.06602304758266628
-Oryzomys_palustris,0.06602304758266628
-Praomys_jacksoni,0.06602304758266628
-Reithrodontomys_megalotis,0.06602304758266628
-Rhinolophus_rouxii,0.06602304758266628
-Saguinus_geoffroyi,0.06602304758266628
-Scotophilus_nigrita,0.06602304758266628
-Sturnira_tildae,0.06602304758266628
-Sylvilagus_nuttallii,0.06602304758266628
-Thomomys_talpoides,0.06602304758266628
-Trachypithecus_francoisi,0.06602304758266628
-Vandeleuria_oleracea,0.06602304758266628
-Vespadelus_pumilus,0.06602304758266628
-Saguinus_labiatus,0.06602304758266628
-Spermophilus_citellus,0.06602304758266628
-Mus_spretus,0.06602304758266628
-Antrozous_pallidus,0.06602304758266628
-Artibeus_fimbriatus,0.06602304758266628
-Atilax_paludinosus,0.06602304758266628
-Chrotopterus_auritus,0.06602304758266628
-Chrysocyon_brachyurus,0.06602304758266628
-Corynorhinus_townsendii,0.06602304758266628
-Cynictis_penicillata,0.06602304758266628
-Diaemus_youngi,0.06602304758266628
-Diclidurus_albus,0.06602304758266628
-Diphylla_ecaudata,0.06602304758266628
-Epomophorus_wahlbergi,0.06602304758266628
-Epomops_dobsonii,0.06602304758266628
-Eptesicus_brasiliensis,0.06602304758266628
-Eptesicus_diminutus,0.06602304758266628
-Eptesicus_furinalis,0.06602304758266628
-Euderma_maculatum,0.06602304758266628
-Eumops_auripendulus,0.06602304758266628
-Eumops_patagonicus,0.06602304758266628
-Eumops_perotis,0.06602304758266628
-Felis_nigripes,0.06602304758266628
-Galerella_sanguinea,0.06602304758266628
-Genetta_genetta,0.06602304758266628
-Glaucomys_volans,0.06602304758266628
-Glossophaga_longirostris,0.06602304758266628
-Glossophaga_morenoi,0.06602304758266628
-Histiotus_montanus,0.06602304758266628
-Histiotus_velatus,0.06602304758266628
-Hydrochoerus_hydrochaeris,0.06602304758266628
-Lasionycteris_noctivagans,0.06602304758266628
-Lasiurus_blossevillii,0.06602304758266628
-Lasiurus_borealis,0.06602304758266628
-Lasiurus_ega,0.06602304758266628
-Lasiurus_egregius,0.06602304758266628
-Lasiurus_intermedius,0.06602304758266628
-Lasiurus_seminolus,0.06602304758266628
-Lasiurus_xanthinus,0.06602304758266628
-Leptonycteris_curasoae,0.06602304758266628
-Leptonycteris_nivalis,0.06602304758266628
-Lycalopex_vetulus,0.06602304758266628
-Macrotus_californicus,0.06602304758266628
-Martes_foina,0.06602304758266628
-Mellivora_capensis,0.06602304758266628
-Micronycteris_megalotis,0.06602304758266628
-Molossops_neglectus,0.06602304758266628
-Myotis_albescens,0.06602304758266628
-Myotis_austroriparius,0.06602304758266628
-Myotis_californicus,0.06602304758266628
-Myotis_chiloensis,0.06602304758266628
-Myotis_evotis,0.06602304758266628
-Myotis_grisescens,0.06602304758266628
-Myotis_leibii,0.06602304758266628
-Myotis_levis,0.06602304758266628
-Myotis_thysanodes,0.06602304758266628
-Myotis_yumanensis,0.06602304758266628
-Neotoma_floridana,0.06602304758266628
-Nycteris_thebaica,0.06602304758266628
-Nycticeius_humeralis,0.06602304758266628
-Nyctinomops_macrotis,0.06602304758266628
-Otocyon_megalotis,0.06602304758266628
-Philetor_brachypterus,0.06602304758266628
-Pipistrellus_hesperus,0.06602304758266628
-Platyrrhinus_lineatus,0.06602304758266628
-Proteles_cristata,0.06602304758266628
-Saccolaimus_flaviventris,0.06602304758266628
-Saccolaimus_saccolaimus,0.06602304758266628
-Spermophilus_undulatus,0.06602304758266628
-Spermophilus_variegatus,0.06602304758266628
-Suricata_suricatta,0.06602304758266628
-Tadarida_teniotis,0.06602304758266628
-Vespertilio_murinus,0.06602304758266628
-Vulpes_corsac,0.06602304758266628
-Vulpes_lagopus,0.06602304758266628
-Odobenus_rosmarus,0.06602304758266628
-Tupaia_belangeri,0.06602304758266628
-Cebus_apella,0.06602304758266628
-Chaetodipus_spinatus,0.06602304758266628
-Dasymys_incomtus,0.06602304758266628
-Gerbilliscus_validus,0.06602304758266628
-Isoodon_macrourus,0.06602304758266628
-Lophuromys_flavopunctatus,0.06602304758266628
-Marmosa_murina,0.06602304758266628
-Nectomys_squamipes,0.06602304758266628
-Nycticebus_coucang,0.06602304758266628
-Perameles_nasuta,0.06602304758266628
-Presbytis_melalophos,0.06602304758266628
-Reithrodontomys_mexicanus,0.06602304758266628
-Sylvilagus_aquaticus,0.06602304758266628
-Taphozous_theobaldi,0.06602304758266628
-Trinomys_iheringi,0.06602304758266628
-Hylobates_moloch,0.06602304758266628
-Hylobates_pileatus,0.06602304758266628
-Pongo_abelii,0.06602304758266628
-Spermophilus_parryii,0.06602304758266628
-Lemmus_lemmus,0.06602304758266628
-Capricornis_crispus,0.06602304758266628
-Pudu_puda,0.06602304758266628
-Rupicapra_pyrenaica,0.06602304758266628
-Tragelaphus_eurycerus,0.06602304758266628
-Tragulus_javanicus,0.06602304758266628
-Glauconycteris_argentata,0.06602304758266628
-Mastomys_huberti,0.06602304758266628
-Micaelamys_namaquensis,0.06602304758266628
-Pelomys_isseli,0.06602304758266628
-Chaetophractus_vellerosus,0.06602304758266628
-Myrmecophaga_tridactyla,0.06602304758266628
-Mungos_mungo,0.06602304758266628
-Baiomys_taylori,0.06602304758266628
-Bassaricyon_gabbii,0.06602304758266628
-Cabassous_centralis,0.06602304758266628
-Callithrix_geoffroyi,0.06602304758266628
-Caluromys_derbianus,0.06602304758266628
-Cebus_capucinus,0.06602304758266628
-Chironectes_minimus,0.06602304758266628
-Coendou_rothschildi,0.06602304758266628
-Diplomys_labilis,0.06602304758266628
-Dipodomys_merriami,0.06602304758266628
-Liomys_adspersus,0.06602304758266628
-Lonchophylla_robusta,0.06602304758266628
-Lophostoma_silvicolum,0.06602304758266628
-Nasua_narica,0.06602304758266628
-Proechimys_longicaudatus,0.06602304758266628
-Rhinolophus_hildebrandtii,0.06602304758266628
-Tylomys_nudicaudus,0.06602304758266628
-Vampyrodes_caraccioli,0.06602304758266628
-Balaenoptera_borealis,0.06602304758266628
-Balaenoptera_physalus,0.06602304758266628
-Eschrichtius_robustus,0.06602304758266628
-Physeter_catodon,0.06602304758266628
-Prionailurus_bengalensis,0.06602304758266628
-Zalophus_californianus,0.06602304758266628
+Homo sapiens,0.34299563366605096
+Bos taurus,0.259424883428634
+Sus scrofa,0.25182754249795974
+Equus caballus,0.21384083784458846
+Canis lupus,0.20244482644857706
+Mus musculus,0.1948474855179028
+Bubalus bubalis,0.1834514741218914
+Pan troglodytes,0.1834514741218914
+Rattus norvegicus,0.17585413319121712
+Camelus dromedarius,0.17205546272588002
+Myodes glareolus,0.17205546272588002
+Artibeus lituratus,0.16445812179520575
+Eidolon helvum,0.16445812179520575
+Rousettus aegyptiacus,0.16445812179520575
+Rousettus leschenaultii,0.16445812179520575
+Carollia perspicillata,0.16065945132986859
+Chlorocebus aethiops,0.16065945132986859
+Vicugna vicugna,0.15686078086453148
+Cavia porcellus,0.15686078086453148
+Cynopterus sphinx,0.15306211039919435
+Eonycteris spelaea,0.15306211039919435
+Micropteropus pusillus,0.15306211039919435
+Miniopterus schreibersii,0.15306211039919435
+Oryctolagus cuniculus,0.15306211039919435
+Artibeus phaeotis,0.15306211039919435
+Epomops franqueti,0.15306211039919435
+Pteropus alecto,0.15306211039919435
+Epomophorus gambianus,0.1492634399338572
+Hipposideros armiger,0.1492634399338572
+Hipposideros caffer,0.1492634399338572
+Myotis daubentonii,0.1492634399338572
+Pipistrellus pipistrellus,0.1492634399338572
+Pteropus giganteus,0.1492634399338572
+Rhinolophus ferrumequinum,0.1492634399338572
+Cynopterus brachyotis,0.1492634399338572
+Pteronotus parnellii,0.1492634399338572
+Eptesicus serotinus,0.14546476946852008
+Myotis ricketti,0.14546476946852008
+Pipistrellus abramus,0.14546476946852008
+Pipistrellus kuhlii,0.14546476946852008
+Rhinolophus affinis,0.14546476946852008
+Rhinolophus sinicus,0.14546476946852008
+Apodemus agrarius,0.14546476946852008
+Lama glama,0.14546476946852008
+Mus cervicolor,0.14546476946852008
+Nyctereutes procyonoides,0.14546476946852008
+Pteronotus davyi,0.14546476946852008
+Rhinolophus pusillus,0.14546476946852008
+Rousettus amplexicaudatus,0.14546476946852008
+Taphozous perforatus,0.14546476946852008
+Hipposideros pratti,0.14166609900318294
+Hipposideros ruber,0.14166609900318294
+Hypsugo savii,0.14166609900318294
+Megaloglossus woermanni,0.14166609900318294
+Melogale moschata,0.14166609900318294
+Mops condylurus,0.14166609900318294
+Myotis emarginatus,0.14166609900318294
+Neoromicia capensis,0.14166609900318294
+Rhinolophus clivosus,0.14166609900318294
+Rhinolophus euryale,0.14166609900318294
+Rhinolophus rex,0.14166609900318294
+Rhinopoma hardwickii,0.14166609900318294
+Scotophilus dinganii,0.14166609900318294
+Scotophilus leucogaster,0.14166609900318294
+Triaenops persicus,0.14166609900318294
+Chaerephon plicatus,0.14166609900318294
+Dobsonia moluccensis,0.14166609900318294
+Eidolon dupreanum,0.14166609900318294
+Epomophorus labiatus,0.14166609900318294
+Erinaceus europaeus,0.14166609900318294
+Eumops glaucinus,0.14166609900318294
+Myotis dasycneme,0.14166609900318294
+Nyctalus noctula,0.14166609900318294
+Nyctinomops laticaudatus,0.14166609900318294
+Paguma larvata,0.14166609900318294
+Pipistrellus nathusii,0.14166609900318294
+Pteropus rufus,0.14166609900318294
+Vespertilio sinensis,0.14166609900318294
+Ovis aries,0.14071643138684864
+Artibeus obscurus,0.1378674285378458
+Aselliscus stoliczkanus,0.1378674285378458
+Cynopterus horsfieldii,0.1378674285378458
+Dyacopterus spadiceus,0.1378674285378458
+Eptesicus nilssonii,0.1378674285378458
+Erinaceus amurensis,0.1378674285378458
+Hipposideros commersoni,0.1378674285378458
+Hipposideros galeritus,0.1378674285378458
+Hydropotes inermis,0.1378674285378458
+Ia io,0.1378674285378458
+Manis javanica,0.1378674285378458
+Megaerops niphanae,0.1378674285378458
+Mus bufo,0.1378674285378458
+Niviventer confucianus,0.1378674285378458
+Nycticebus pygmaeus,0.1378674285378458
+Pipistrellus hesperidus,0.1378674285378458
+Pipistrellus pygmaeus,0.1378674285378458
+Ptenochirus jagori,0.1378674285378458
+Rattus argentiventer,0.1378674285378458
+Rattus losea,0.1378674285378458
+Rattus tanezumi,0.1378674285378458
+Rhinolophus blasii,0.1378674285378458
+Rhinolophus cornutus,0.1378674285378458
+Rhinolophus creaghi,0.1378674285378458
+Rhinolophus hipposideros,0.1378674285378458
+Rhinolophus macrotis,0.1378674285378458
+Rhinolophus mehelyi,0.1378674285378458
+Rhinolophus monoceros,0.1378674285378458
+Rhinolophus pearsonii,0.1378674285378458
+Rhinolophus thomasi,0.1378674285378458
+Rhinonicteris aurantia,0.1378674285378458
+Tylonycteris pachypus,0.1378674285378458
+Capra hircus,0.11412573812948873
+Felis catus,0.10652839719881446
+Macaca mulatta,0.10652839719881446
+Apodemus sylvaticus,0.0989310562681402
+Equus asinus,0.0989310562681402
+Sciurus carolinensis,0.09513238580280306
+Macaca fascicularis,0.09513238580280306
+Odocoileus virginianus,0.09133371533746593
+Papio ursinus,0.08753504487212879
+Pongo pygmaeus,0.08753504487212879
+Rattus rattus,0.08753504487212879
+Aepyceros melampus,0.08753504487212879
+Cervus elaphus,0.08753504487212879
+Connochaetes taurinus,0.08753504487212879
+Rangifer tarandus,0.08753504487212879
+Kobus ellipsiprymnus,0.08753504487212879
+Syncerus caffer,0.08753504487212879
+Procyon lotor,0.08753504487212879
+Microtus agrestis,0.08373637440679166
+Papio cynocephalus,0.08373637440679166
+Odocoileus hemionus,0.08373637440679166
+Artibeus jamaicensis,0.07993770394145454
+Gorilla gorilla,0.07993770394145454
+Capreolus capreolus,0.07993770394145454
+Dama dama,0.07993770394145454
+Saimiri sciureus,0.07993770394145454
+Panthera leo,0.07993770394145454
+Aotus trivirgatus,0.07993770394145454
+Taurotragus oryx,0.07993770394145454
+Tragelaphus strepsiceros,0.07993770394145454
+Vulpes velox,0.07993770394145454
+Tatera indica,0.07993770394145454
+Crocuta crocuta,0.0761390334761174
+Desmodus rotundus,0.0761390334761174
+Glossophaga soricina,0.0761390334761174
+Molossus rufus,0.0761390334761174
+Scotophilus kuhlii,0.0761390334761174
+Sturnira lilium,0.0761390334761174
+Apodemus flavicollis,0.0761390334761174
+Alcelaphus buselaphus,0.0761390334761174
+Alces alces,0.0761390334761174
+Bison bison,0.0761390334761174
+Marmota monax,0.0761390334761174
+Macropus giganteus,0.0761390334761174
+Redunca arundinum,0.0761390334761174
+Eudorcas thomsonii,0.0761390334761174
+Giraffa camelopardalis,0.0761390334761174
+Oryx leucoryx,0.0761390334761174
+Puma concolor,0.0761390334761174
+Cercopithecus mona,0.0761390334761174
+Antilocapra americana,0.0761390334761174
+Phyllostomus hastatus,0.0761390334761174
+Proechimys guyannensis,0.0761390334761174
+Sigmodon hispidus,0.0761390334761174
+Canis mesomelas,0.07234036301078027
+Eptesicus fuscus,0.07234036301078027
+Myotis lucifugus,0.07234036301078027
+Myotis nigricans,0.07234036301078027
+Neovison vison,0.07234036301078027
+Phoca vitulina,0.07234036301078027
+Tadarida brasiliensis,0.07234036301078027
+Callithrix jacchus,0.07234036301078027
+Papio hamadryas,0.07234036301078027
+Microtus arvalis,0.07234036301078027
+Oryx gazella,0.07234036301078027
+Elephas maximus,0.07234036301078027
+Gorilla beringei,0.07234036301078027
+Macaca radiata,0.07234036301078027
+Papio anubis,0.07234036301078027
+Bos grunniens,0.07234036301078027
+Erythrocebus patas,0.07234036301078027
+Felis silvestris,0.07234036301078027
+Lontra canadensis,0.07234036301078027
+Mastomys natalensis,0.07234036301078027
+Mesocricetus auratus,0.07234036301078027
+Urocyon cinereoargenteus,0.07234036301078027
+Cercopithecus ascanius,0.07234036301078027
+Antidorcas marsupialis,0.07234036301078027
+Cricetomys gambianus,0.07234036301078027
+Sciurus vulgaris,0.07234036301078027
+Peromyscus maniculatus,0.07234036301078027
+Spermophilus beecheyi,0.07234036301078027
+Acinonyx jubatus,0.07234036301078027
+Arvicanthis niloticus,0.07234036301078027
+Bradypus variegatus,0.07234036301078027
+Choloepus hoffmanni,0.07234036301078027
+Damaliscus lunatus,0.07234036301078027
+Hippotragus niger,0.07234036301078027
+Meriones hurrianae,0.07234036301078027
+Ovis canadensis,0.07234036301078027
+Microtus pennsylvanicus,0.07234036301078027
+Didelphis marsupialis,0.07234036301078027
+Lepus californicus,0.07234036301078027
+Mephitis mephitis,0.07234036301078027
+Myotis septentrionalis,0.07234036301078027
+Proechimys semispinosus,0.07234036301078027
+Sciurus niger,0.07234036301078027
+Sylvilagus audubonii,0.07234036301078027
+Uroderma bilobatum,0.07234036301078027
+Canis latrans,0.07234036301078027
+Vulpes vulpes,0.07234036301078027
+Carollia brevicauda,0.06854169254544314
+Chaerephon pumilus,0.06854169254544314
+Hipposideros pomona,0.06854169254544314
+Leopardus pardalis,0.06854169254544314
+Murina leucogaster,0.06854169254544314
+Chlorocebus sabaeus,0.06854169254544314
+Bos frontalis,0.06854169254544314
+Hippotragus equinus,0.06854169254544314
+Martes pennanti,0.06854169254544314
+Ovis dalli,0.06854169254544314
+Cephalophus dorsalis,0.06854169254544314
+Cephalophus leucogaster,0.06854169254544314
+Equus burchellii,0.06854169254544314
+Ursus americanus,0.06854169254544314
+Ursus maritimus,0.06854169254544314
+Hypsignathus monstrosus,0.06854169254544314
+Pteropus poliocephalus,0.06854169254544314
+Pteropus scapulatus,0.06854169254544314
+Canis simensis,0.06854169254544314
+Lycaon pictus,0.06854169254544314
+Semnopithecus entellus,0.06854169254544314
+Sylvicapra grimmia,0.06854169254544314
+Sylvilagus brasiliensis,0.06854169254544314
+Tamiasciurus hudsonicus,0.06854169254544314
+Gerbilliscus kempi,0.06854169254544314
+Microtus californicus,0.06854169254544314
+Microtus oeconomus,0.06854169254544314
+Myodes rutilus,0.06854169254544314
+Oligoryzomys nigripes,0.06854169254544314
+Peromyscus truei,0.06854169254544314
+Spermophilus richardsonii,0.06854169254544314
+Ceratotherium simum,0.06854169254544314
+Gazella gazella,0.06854169254544314
+Loxodonta africana,0.06854169254544314
+Macropus agilis,0.06854169254544314
+Nanger granti,0.06854169254544314
+Nycteris gambiensis,0.06854169254544314
+Mandrillus sphinx,0.06854169254544314
+Atelerix albiventris,0.06854169254544314
+Bradypus tridactylus,0.06854169254544314
+Dasypus novemcinctus,0.06854169254544314
+Lepus americanus,0.06854169254544314
+Myotis keenii,0.06854169254544314
+Peromyscus gossypinus,0.06854169254544314
+Peromyscus leucopus,0.06854169254544314
+Philander opossum,0.06854169254544314
+Tamandua tetradactyla,0.06854169254544314
+Didelphis virginiana,0.06854169254544314
+Myocastor coypus,0.06854169254544314
+Molossus molossus,0.06854169254544314
+Tamias striatus,0.06854169254544314
+Cynomops abrasus,0.064743022080106
+Cynomops planirostris,0.064743022080106
+Hipposideros abae,0.064743022080106
+Hipposideros bicolor,0.064743022080106
+Hipposideros larvatus,0.064743022080106
+Miniopterus inflatus,0.064743022080106
+Myotis blythii,0.064743022080106
+Myotis myotis,0.064743022080106
+Myotis nattereri,0.064743022080106
+Myotis riparius,0.064743022080106
+Myotis velifer,0.064743022080106
+Myotis volans,0.064743022080106
+Pipistrellus subflavus,0.064743022080106
+Sorex araneus,0.064743022080106
+Suncus murinus,0.064743022080106
+Bandicota indica,0.064743022080106
+Rattus exulans,0.064743022080106
+Rattus tiomanicus,0.064743022080106
+Ateles geoffroyi,0.064743022080106
+Bos javanicus,0.064743022080106
+Oryx beisa,0.064743022080106
+Ovibos moschatus,0.064743022080106
+Macaca fuscata,0.064743022080106
+Macaca nemestrina,0.064743022080106
+Ammotragus lervia,0.064743022080106
+Bison bonasus,0.064743022080106
+Capra ibex,0.064743022080106
+Cephalophus nigrifrons,0.064743022080106
+Cephalophus weynsi,0.064743022080106
+Cystophora cristata,0.064743022080106
+Lobodon carcinophaga,0.064743022080106
+Pagophilus groenlandicus,0.064743022080106
+Sylvilagus floridanus,0.064743022080106
+Pteropus conspicillatus,0.064743022080106
+Pteropus hypomelanus,0.064743022080106
+Pteropus lylei,0.064743022080106
+Pteropus vampyrus,0.064743022080106
+Colobus guereza,0.064743022080106
+Trachypithecus cristatus,0.064743022080106
+Tragelaphus imberbis,0.064743022080106
+Urocyon littoralis,0.064743022080106
+Chlorocebus pygerythrus,0.064743022080106
+Connochaetes gnou,0.064743022080106
+Lepus europaeus,0.064743022080106
+Rhombomys opimus,0.064743022080106
+Erethizon dorsatum,0.064743022080106
+Marmota flaviventris,0.064743022080106
+Myodes gapperi,0.064743022080106
+Neotoma fuscipes,0.064743022080106
+Sciurus griseus,0.064743022080106
+Antilope cervicapra,0.064743022080106
+Axis axis,0.064743022080106
+Calomys callosus,0.064743022080106
+Canis adustus,0.064743022080106
+Cervus nippon,0.064743022080106
+Diceros bicornis,0.064743022080106
+Eumetopias jubatus,0.064743022080106
+Macropus robustus,0.064743022080106
+Oreamnos americanus,0.064743022080106
+Oryzomys megacephalus,0.064743022080106
+Philantomba monticola,0.064743022080106
+Cercopithecus nictitans,0.064743022080106
+Lophocebus albigena,0.064743022080106
+Pan paniscus,0.064743022080106
+Hylobates lar,0.064743022080106
+Caracal caracal,0.064743022080106
+Lynx rufus,0.064743022080106
+Mandrillus leucophaeus,0.064743022080106
+Panthera pardus,0.064743022080106
+Alouatta caraya,0.064743022080106
+Ammospermophilus nelsoni,0.064743022080106
+Callithrix leucippe,0.064743022080106
+Caluromys philander,0.064743022080106
+Dasyprocta leporina,0.064743022080106
+Dasyprocta punctata,0.064743022080106
+Heteromys anomalus,0.064743022080106
+Hydromys chrysogaster,0.064743022080106
+Lasiurus cinereus,0.064743022080106
+Oryzomys laticeps,0.064743022080106
+Papio papio,0.064743022080106
+Phyllostomus discolor,0.064743022080106
+Platyrrhinus helleri,0.064743022080106
+Potos flavus,0.064743022080106
+Spermophilus tridecemlineatus,0.064743022080106
+Tolypeutes matacus,0.064743022080106
+Trichosurus vulpecula,0.064743022080106
+Zygodontomys brevicauda,0.064743022080106
+Tragelaphus scriptus,0.064743022080106
+Ichneumia albicauda,0.064743022080106
+Lemur catta,0.064743022080106
+Mus booduga,0.064743022080106
+Alouatta palliata,0.064743022080106
+Alouatta pigra,0.064743022080106
+Anoura geoffroyi,0.064743022080106
+Artibeus cinereus,0.064743022080106
+Barbastella barbastellus,0.064743022080106
+Lemniscomys striatus,0.064743022080106
+Macaca sinica,0.064743022080106
+Mastomys erythroleucus,0.064743022080106
+Microtus gregalis,0.064743022080106
+Mormoops megalophylla,0.064743022080106
+Myotis mystacinus,0.064743022080106
+Natalus tumidirostris,0.064743022080106
+Plecotus auritus,0.064743022080106
+Taphozous melanopogon,0.064743022080106
+Lepus timidus,0.064743022080106
+Lophuromys sikapusi,0.064743022080106
+Rhinolophus eloquens,0.064743022080106
+Metachirus nudicaudatus,0.064743022080106
+Otomys tropicalis,0.064743022080106
+Leopardus geoffroyi,0.064743022080106
+Anoura caudifer,0.060944351614768875
+Apodemus chevrieri,0.060944351614768875
+Cardioderma cor,0.060944351614768875
+Chalinolobus gouldii,0.060944351614768875
+Chalinolobus morio,0.060944351614768875
+Crocidura attenuata,0.060944351614768875
+Deomys ferrugineus,0.060944351614768875
+Falsistrellus mackenziei,0.060944351614768875
+Hipposideros diadema,0.060944351614768875
+Hipposideros gigas,0.060944351614768875
+Hipposideros lekaguli,0.060944351614768875
+Hipposideros vittatus,0.060944351614768875
+Lichonycteris obscura,0.060944351614768875
+Lonchorhina aurita,0.060944351614768875
+Mesophylla macconnelli,0.060944351614768875
+Miniopterus australis,0.060944351614768875
+Miniopterus magnater,0.060944351614768875
+Miniopterus natalensis,0.060944351614768875
+Miniopterus pusillus,0.060944351614768875
+Mustela putorius,0.060944351614768875
+Myotis brandtii,0.060944351614768875
+Myotis capaccinii,0.060944351614768875
+Myotis davidii,0.060944351614768875
+Myotis horsfieldii,0.060944351614768875
+Myotis longipes,0.060944351614768875
+Myotis macropus,0.060944351614768875
+Myotis punicus,0.060944351614768875
+Mystacina tuberculata,0.060944351614768875
+Neoromicia nanus,0.060944351614768875
+Nyctalus lasiopterus,0.060944351614768875
+Nyctalus plancyi,0.060944351614768875
+Pipistrellus coromandra,0.060944351614768875
+Pipistrellus inexspectatus,0.060944351614768875
+Puma yagouaroundi,0.060944351614768875
+Rhinolophus capensis,0.060944351614768875
+Rhinolophus coelophyllus,0.060944351614768875
+Rhinolophus megaphyllus,0.060944351614768875
+Rhinolophus shameli,0.060944351614768875
+Rhinolophus simulator,0.060944351614768875
+Rhinolophus stheno,0.060944351614768875
+Scotophilus nux,0.060944351614768875
+Sturnira erythromos,0.060944351614768875
+Tylonycteris robustula,0.060944351614768875
+Vespadelus baverstocki,0.060944351614768875
+Vespadelus regulus,0.060944351614768875
+Delphinapterus leucas,0.060944351614768875
+Meles meles,0.060944351614768875
+Rusa timorensis,0.060944351614768875
+Dorcopsis muelleri,0.060944351614768875
+Macaca arctoides,0.060944351614768875
+Macaca cyclopis,0.060944351614768875
+Macropus parma,0.060944351614768875
+Rupicapra rupicapra,0.060944351614768875
+Equus hemionus,0.060944351614768875
+Leptonychotes weddellii,0.060944351614768875
+Mustela lutreola,0.060944351614768875
+Phocoena spinipinnis,0.060944351614768875
+Dobsonia anderseni,0.060944351614768875
+Pteropus admiralitatum,0.060944351614768875
+Pteropus capistratus,0.060944351614768875
+Pteropus neohibernicus,0.060944351614768875
+Aotus azarae,0.060944351614768875
+Cerdocyon thous,0.060944351614768875
+Delphinus delphis,0.060944351614768875
+Gazella dorcas,0.060944351614768875
+Globicephala melas,0.060944351614768875
+Halichoerus grypus,0.060944351614768875
+Lycalopex gymnocercus,0.060944351614768875
+Phocoena phocoena,0.060944351614768875
+Pseudois nayaur,0.060944351614768875
+Pusa sibirica,0.060944351614768875
+Stenella coeruleoalba,0.060944351614768875
+Taxidea taxus,0.060944351614768875
+Tursiops truncatus,0.060944351614768875
+Cercopithecus mitis,0.060944351614768875
+Cricetus cricetus,0.060944351614768875
+Mustela nigripes,0.060944351614768875
+Ozotoceros bezoarticus,0.060944351614768875
+Lepus capensis,0.060944351614768875
+Sylvilagus bachmani,0.060944351614768875
+Arvicola scherman,0.060944351614768875
+Castor fiber,0.060944351614768875
+Cercopithecus petaurista,0.060944351614768875
+Cricetomys emini,0.060944351614768875
+Cynomys ludovicianus,0.060944351614768875
+Funisciurus anerythrus,0.060944351614768875
+Funisciurus congicus,0.060944351614768875
+Heliosciurus rufobrachium,0.060944351614768875
+Lynx lynx,0.060944351614768875
+Meriones libycus,0.060944351614768875
+Myodes rufocanus,0.060944351614768875
+Oligoryzomys flavescens,0.060944351614768875
+Oryzomys angouya,0.060944351614768875
+Spermophilus fulvus,0.060944351614768875
+Neotoma cinerea,0.060944351614768875
+Perognathus parvus,0.060944351614768875
+Peromyscus boylii,0.060944351614768875
+Spermophilus columbianus,0.060944351614768875
+Spermophilus lateralis,0.060944351614768875
+Tamias amoenus,0.060944351614768875
+Tamias minimus,0.060944351614768875
+Tamias umbrinus,0.060944351614768875
+Canis aureus,0.060944351614768875
+Capra pyrenaica,0.060944351614768875
+Gazella subgutturosa,0.060944351614768875
+Genetta maculata,0.060944351614768875
+Macropus fuliginosus,0.060944351614768875
+Macropus rufus,0.060944351614768875
+Nycteris nana,0.060944351614768875
+Otomys irroratus,0.060944351614768875
+Ourebia ourebi,0.060944351614768875
+Redunca fulvorufula,0.060944351614768875
+Syconycteris australis,0.060944351614768875
+Thryonomys swinderianus,0.060944351614768875
+Tragelaphus angasii,0.060944351614768875
+Trachypithecus obscurus,0.060944351614768875
+Cercocebus agilis,0.060944351614768875
+Macaca maura,0.060944351614768875
+Macaca nigra,0.060944351614768875
+Macaca ochreata,0.060944351614768875
+Macaca tonkeana,0.060944351614768875
+Lagothrix lagotricha,0.060944351614768875
+Lynx pardinus,0.060944351614768875
+Mus spicilegus,0.060944351614768875
+Cercocebus atys,0.060944351614768875
+Cercocebus galeritus,0.060944351614768875
+Cercopithecus cephus,0.060944351614768875
+Cercopithecus neglectus,0.060944351614768875
+Miopithecus talapoin,0.060944351614768875
+Akodon azarae,0.060944351614768875
+Alouatta seniculus,0.060944351614768875
+Carollia subrufa,0.060944351614768875
+Cercopithecus pogonias,0.060944351614768875
+Choloepus didactylus,0.060944351614768875
+Coendou prehensilis,0.060944351614768875
+Cuniculus paca,0.060944351614768875
+Galago senegalensis,0.060944351614768875
+Glossophaga commissarisi,0.060944351614768875
+Hoplomys gymnurus,0.060944351614768875
+Melanomys caliginosus,0.060944351614768875
+Mirounga leonina,0.060944351614768875
+Oryzomys alfaroi,0.060944351614768875
+Pithecia pithecia,0.060944351614768875
+Proechimys guairae,0.060944351614768875
+Rhynchonycteris naso,0.060944351614768875
+Saguinus midas,0.060944351614768875
+Sciurus granatensis,0.060944351614768875
+Sciurus variegatoides,0.060944351614768875
+Sturnira ludovici,0.060944351614768875
+Ursus arctos,0.060944351614768875
+Blastocerus dichotomus,0.060944351614768875
+Boselaphus tragocamelus,0.060944351614768875
+Muntiacus muntjak,0.060944351614768875
+Phacochoerus aethiopicus,0.060944351614768875
+Procapra gutturosa,0.060944351614768875
+Raphicerus sharpei,0.060944351614768875
+Rusa unicolor,0.060944351614768875
+Saiga tatarica,0.060944351614768875
+Phacochoerus africanus,0.060944351614768875
+Potamochoerus porcus,0.060944351614768875
+Eulemur albifrons,0.060944351614768875
+Eulemur macaco,0.060944351614768875
+Glis glis,0.060944351614768875
+Macaca sylvanus,0.060944351614768875
+Varecia variegata,0.060944351614768875
+Cephalophus callipygus,0.060944351614768875
+Mus setulosus,0.060944351614768875
+Myonycteris torquata,0.060944351614768875
+Akodon montensis,0.060944351614768875
+Apodemus argenteus,0.060944351614768875
+Apodemus speciosus,0.060944351614768875
+Artibeus toltecus,0.060944351614768875
+Arvicola amphibius,0.060944351614768875
+Ateles paniscus,0.060944351614768875
+Calomys musculinus,0.060944351614768875
+Colobus polykomos,0.060944351614768875
+Desmodillus auricularis,0.060944351614768875
+Dipodomys heermanni,0.060944351614768875
+Dipodomys nitratoides,0.060944351614768875
+Funambulus tristriatus,0.060944351614768875
+Hipposideros cineraceus,0.060944351614768875
+Hipposideros lankadiva,0.060944351614768875
+Hipposideros speoris,0.060944351614768875
+Macroglossus minimus,0.060944351614768875
+Madromys blanfordi,0.060944351614768875
+Mimon crenulatum,0.060944351614768875
+Murina aurata,0.060944351614768875
+Myotis macrodactylus,0.060944351614768875
+Natalus stramineus,0.060944351614768875
+Ondatra zibethicus,0.060944351614768875
+Onychomys torridus,0.060944351614768875
+Orcinus orca,0.060944351614768875
+Oryzomys palustris,0.060944351614768875
+Praomys jacksoni,0.060944351614768875
+Reithrodontomys megalotis,0.060944351614768875
+Rhinolophus rouxii,0.060944351614768875
+Saguinus geoffroyi,0.060944351614768875
+Scotophilus nigrita,0.060944351614768875
+Sturnira tildae,0.060944351614768875
+Sylvilagus nuttallii,0.060944351614768875
+Thomomys talpoides,0.060944351614768875
+Trachypithecus francoisi,0.060944351614768875
+Vandeleuria oleracea,0.060944351614768875
+Vespadelus pumilus,0.060944351614768875
+Saguinus labiatus,0.060944351614768875
+Spermophilus citellus,0.060944351614768875
+Mus spretus,0.060944351614768875
+Antrozous pallidus,0.060944351614768875
+Artibeus fimbriatus,0.060944351614768875
+Atilax paludinosus,0.060944351614768875
+Chrotopterus auritus,0.060944351614768875
+Chrysocyon brachyurus,0.060944351614768875
+Corynorhinus townsendii,0.060944351614768875
+Cynictis penicillata,0.060944351614768875
+Diaemus youngi,0.060944351614768875
+Diclidurus albus,0.060944351614768875
+Diphylla ecaudata,0.060944351614768875
+Epomophorus wahlbergi,0.060944351614768875
+Epomops dobsonii,0.060944351614768875
+Eptesicus brasiliensis,0.060944351614768875
+Eptesicus diminutus,0.060944351614768875
+Eptesicus furinalis,0.060944351614768875
+Euderma maculatum,0.060944351614768875
+Eumops auripendulus,0.060944351614768875
+Eumops patagonicus,0.060944351614768875
+Eumops perotis,0.060944351614768875
+Felis nigripes,0.060944351614768875
+Galerella sanguinea,0.060944351614768875
+Genetta genetta,0.060944351614768875
+Glaucomys volans,0.060944351614768875
+Glossophaga longirostris,0.060944351614768875
+Glossophaga morenoi,0.060944351614768875
+Histiotus montanus,0.060944351614768875
+Histiotus velatus,0.060944351614768875
+Hydrochoerus hydrochaeris,0.060944351614768875
+Lasionycteris noctivagans,0.060944351614768875
+Lasiurus blossevillii,0.060944351614768875
+Lasiurus borealis,0.060944351614768875
+Lasiurus ega,0.060944351614768875
+Lasiurus egregius,0.060944351614768875
+Lasiurus intermedius,0.060944351614768875
+Lasiurus seminolus,0.060944351614768875
+Lasiurus xanthinus,0.060944351614768875
+Leptonycteris curasoae,0.060944351614768875
+Leptonycteris nivalis,0.060944351614768875
+Lycalopex vetulus,0.060944351614768875
+Macrotus californicus,0.060944351614768875
+Martes foina,0.060944351614768875
+Mellivora capensis,0.060944351614768875
+Micronycteris megalotis,0.060944351614768875
+Molossops neglectus,0.060944351614768875
+Myotis albescens,0.060944351614768875
+Myotis austroriparius,0.060944351614768875
+Myotis californicus,0.060944351614768875
+Myotis chiloensis,0.060944351614768875
+Myotis evotis,0.060944351614768875
+Myotis grisescens,0.060944351614768875
+Myotis leibii,0.060944351614768875
+Myotis levis,0.060944351614768875
+Myotis thysanodes,0.060944351614768875
+Myotis yumanensis,0.060944351614768875
+Neotoma floridana,0.060944351614768875
+Nycteris thebaica,0.060944351614768875
+Nycticeius humeralis,0.060944351614768875
+Nyctinomops macrotis,0.060944351614768875
+Otocyon megalotis,0.060944351614768875
+Philetor brachypterus,0.060944351614768875
+Pipistrellus hesperus,0.060944351614768875
+Platyrrhinus lineatus,0.060944351614768875
+Proteles cristata,0.060944351614768875
+Saccolaimus flaviventris,0.060944351614768875
+Saccolaimus saccolaimus,0.060944351614768875
+Spermophilus undulatus,0.060944351614768875
+Spermophilus variegatus,0.060944351614768875
+Suricata suricatta,0.060944351614768875
+Tadarida teniotis,0.060944351614768875
+Vespertilio murinus,0.060944351614768875
+Vulpes corsac,0.060944351614768875
+Vulpes lagopus,0.060944351614768875
+Odobenus rosmarus,0.060944351614768875
+Tupaia belangeri,0.060944351614768875
+Cebus apella,0.060944351614768875
+Chaetodipus spinatus,0.060944351614768875
+Dasymys incomtus,0.060944351614768875
+Gerbilliscus validus,0.060944351614768875
+Isoodon macrourus,0.060944351614768875
+Lophuromys flavopunctatus,0.060944351614768875
+Marmosa murina,0.060944351614768875
+Nectomys squamipes,0.060944351614768875
+Nycticebus coucang,0.060944351614768875
+Perameles nasuta,0.060944351614768875
+Presbytis melalophos,0.060944351614768875
+Reithrodontomys mexicanus,0.060944351614768875
+Sylvilagus aquaticus,0.060944351614768875
+Taphozous theobaldi,0.060944351614768875
+Trinomys iheringi,0.060944351614768875
+Hylobates moloch,0.060944351614768875
+Hylobates pileatus,0.060944351614768875
+Pongo abelii,0.060944351614768875
+Spermophilus parryii,0.060944351614768875
+Lemmus lemmus,0.060944351614768875
+Capricornis crispus,0.060944351614768875
+Pudu puda,0.060944351614768875
+Rupicapra pyrenaica,0.060944351614768875
+Tragelaphus eurycerus,0.060944351614768875
+Tragulus javanicus,0.060944351614768875
+Glauconycteris argentata,0.060944351614768875
+Mastomys huberti,0.060944351614768875
+Micaelamys namaquensis,0.060944351614768875
+Pelomys isseli,0.060944351614768875
+Chaetophractus vellerosus,0.060944351614768875
+Myrmecophaga tridactyla,0.060944351614768875
+Mungos mungo,0.060944351614768875
+Baiomys taylori,0.060944351614768875
+Bassaricyon gabbii,0.060944351614768875
+Cabassous centralis,0.060944351614768875
+Callithrix geoffroyi,0.060944351614768875
+Caluromys derbianus,0.060944351614768875
+Cebus capucinus,0.060944351614768875
+Chironectes minimus,0.060944351614768875
+Coendou rothschildi,0.060944351614768875
+Diplomys labilis,0.060944351614768875
+Dipodomys merriami,0.060944351614768875
+Liomys adspersus,0.060944351614768875
+Lonchophylla robusta,0.060944351614768875
+Lophostoma silvicolum,0.060944351614768875
+Nasua narica,0.060944351614768875
+Proechimys longicaudatus,0.060944351614768875
+Rhinolophus hildebrandtii,0.060944351614768875
+Tylomys nudicaudus,0.060944351614768875
+Vampyrodes caraccioli,0.060944351614768875
+Balaenoptera borealis,0.060944351614768875
+Balaenoptera physalus,0.060944351614768875
+Eschrichtius robustus,0.060944351614768875
+Physeter catodon,0.060944351614768875
+Prionailurus bengalensis,0.060944351614768875
+Zalophus californianus,0.060944351614768875

@@ -1,175 +1,254 @@
-Artibeus_jamaicensis,0.2919010123734533
-Desmodus_rotundus,0.2680914885639295
-Glossophaga_soricina,0.2680914885639295
-Molossus_rufus,0.2680914885639295
-Scotophilus_kuhlii,0.2680914885639295
-Sturnira_lilium,0.2680914885639295
-Phyllostomus_hastatus,0.2680914885639295
-Eptesicus_fuscus,0.24428196475440567
-Myotis_lucifugus,0.24428196475440567
-Myotis_nigricans,0.24428196475440567
-Tadarida_brasiliensis,0.24428196475440567
-Myotis_septentrionalis,0.24428196475440567
-Uroderma_bilobatum,0.24428196475440567
-Carollia_brevicauda,0.2204724409448819
-Chaerephon_pumilus,0.2204724409448819
-Hipposideros_pomona,0.2204724409448819
-Murina_leucogaster,0.2204724409448819
-Hypsignathus_monstrosus,0.2204724409448819
-Pteropus_poliocephalus,0.2204724409448819
-Pteropus_scapulatus,0.2204724409448819
-Nycteris_gambiensis,0.2204724409448819
-Myotis_keenii,0.2204724409448819
-Molossus_molossus,0.2204724409448819
-Cynomops_abrasus,0.19666291713535805
-Cynomops_planirostris,0.19666291713535805
-Hipposideros_abae,0.19666291713535805
-Hipposideros_bicolor,0.19666291713535805
-Hipposideros_larvatus,0.19666291713535805
-Miniopterus_inflatus,0.19666291713535805
-Myotis_blythii,0.19666291713535805
-Myotis_myotis,0.19666291713535805
-Myotis_nattereri,0.19666291713535805
-Myotis_riparius,0.19666291713535805
-Myotis_velifer,0.19666291713535805
-Myotis_volans,0.19666291713535805
-Pipistrellus_subflavus,0.19666291713535805
-Pteropus_conspicillatus,0.19666291713535805
-Pteropus_hypomelanus,0.19666291713535805
-Pteropus_lylei,0.19666291713535805
-Pteropus_vampyrus,0.19666291713535805
-Lasiurus_cinereus,0.19666291713535805
-Phyllostomus_discolor,0.19666291713535805
-Platyrrhinus_helleri,0.19666291713535805
-Anoura_geoffroyi,0.19666291713535805
-Artibeus_cinereus,0.19666291713535805
-Barbastella_barbastellus,0.19666291713535805
-Mormoops_megalophylla,0.19666291713535805
-Myotis_mystacinus,0.19666291713535805
-Natalus_tumidirostris,0.19666291713535805
-Plecotus_auritus,0.19666291713535805
-Taphozous_melanopogon,0.19666291713535805
-Rhinolophus_eloquens,0.19666291713535805
-Anoura_caudifer,0.17285339332583427
-Cardioderma_cor,0.17285339332583427
-Chalinolobus_gouldii,0.17285339332583427
-Chalinolobus_morio,0.17285339332583427
-Falsistrellus_mackenziei,0.17285339332583427
-Hipposideros_diadema,0.17285339332583427
-Hipposideros_gigas,0.17285339332583427
-Hipposideros_lekaguli,0.17285339332583427
-Hipposideros_vittatus,0.17285339332583427
-Lichonycteris_obscura,0.17285339332583427
-Lonchorhina_aurita,0.17285339332583427
-Mesophylla_macconnelli,0.17285339332583427
-Miniopterus_australis,0.17285339332583427
-Miniopterus_magnater,0.17285339332583427
-Miniopterus_natalensis,0.17285339332583427
-Miniopterus_pusillus,0.17285339332583427
-Myotis_brandtii,0.17285339332583427
-Myotis_capaccinii,0.17285339332583427
-Myotis_davidii,0.17285339332583427
-Myotis_horsfieldii,0.17285339332583427
-Myotis_longipes,0.17285339332583427
-Myotis_macropus,0.17285339332583427
-Myotis_punicus,0.17285339332583427
-Mystacina_tuberculata,0.17285339332583427
-Neoromicia_nanus,0.17285339332583427
-Nyctalus_lasiopterus,0.17285339332583427
-Nyctalus_plancyi,0.17285339332583427
-Pipistrellus_coromandra,0.17285339332583427
-Pipistrellus_inexspectatus,0.17285339332583427
-Rhinolophus_capensis,0.17285339332583427
-Rhinolophus_coelophyllus,0.17285339332583427
-Rhinolophus_megaphyllus,0.17285339332583427
-Rhinolophus_shameli,0.17285339332583427
-Rhinolophus_simulator,0.17285339332583427
-Rhinolophus_stheno,0.17285339332583427
-Scotophilus_nux,0.17285339332583427
-Sturnira_erythromos,0.17285339332583427
-Tylonycteris_robustula,0.17285339332583427
-Vespadelus_baverstocki,0.17285339332583427
-Vespadelus_regulus,0.17285339332583427
-Dobsonia_anderseni,0.17285339332583427
-Pteropus_admiralitatum,0.17285339332583427
-Pteropus_capistratus,0.17285339332583427
-Pteropus_neohibernicus,0.17285339332583427
-Nycteris_nana,0.17285339332583427
-Syconycteris_australis,0.17285339332583427
-Carollia_subrufa,0.17285339332583427
-Glossophaga_commissarisi,0.17285339332583427
-Rhynchonycteris_naso,0.17285339332583427
-Sturnira_ludovici,0.17285339332583427
-Myonycteris_torquata,0.17285339332583427
-Artibeus_toltecus,0.17285339332583427
-Hipposideros_cineraceus,0.17285339332583427
-Hipposideros_lankadiva,0.17285339332583427
-Hipposideros_speoris,0.17285339332583427
-Macroglossus_minimus,0.17285339332583427
-Mimon_crenulatum,0.17285339332583427
-Murina_aurata,0.17285339332583427
-Myotis_macrodactylus,0.17285339332583427
-Natalus_stramineus,0.17285339332583427
-Rhinolophus_rouxii,0.17285339332583427
-Scotophilus_nigrita,0.17285339332583427
-Sturnira_tildae,0.17285339332583427
-Vespadelus_pumilus,0.17285339332583427
-Antrozous_pallidus,0.17285339332583427
-Artibeus_fimbriatus,0.17285339332583427
-Chrotopterus_auritus,0.17285339332583427
-Corynorhinus_townsendii,0.17285339332583427
-Diaemus_youngi,0.17285339332583427
-Diclidurus_albus,0.17285339332583427
-Diphylla_ecaudata,0.17285339332583427
-Epomophorus_wahlbergi,0.17285339332583427
-Epomops_dobsonii,0.17285339332583427
-Eptesicus_brasiliensis,0.17285339332583427
-Eptesicus_diminutus,0.17285339332583427
-Eptesicus_furinalis,0.17285339332583427
-Euderma_maculatum,0.17285339332583427
-Eumops_auripendulus,0.17285339332583427
-Eumops_patagonicus,0.17285339332583427
-Eumops_perotis,0.17285339332583427
-Glossophaga_longirostris,0.17285339332583427
-Glossophaga_morenoi,0.17285339332583427
-Histiotus_montanus,0.17285339332583427
-Histiotus_velatus,0.17285339332583427
-Lasionycteris_noctivagans,0.17285339332583427
-Lasiurus_blossevillii,0.17285339332583427
-Lasiurus_borealis,0.17285339332583427
-Lasiurus_ega,0.17285339332583427
-Lasiurus_egregius,0.17285339332583427
-Lasiurus_intermedius,0.17285339332583427
-Lasiurus_seminolus,0.17285339332583427
-Lasiurus_xanthinus,0.17285339332583427
-Leptonycteris_curasoae,0.17285339332583427
-Leptonycteris_nivalis,0.17285339332583427
-Macrotus_californicus,0.17285339332583427
-Micronycteris_megalotis,0.17285339332583427
-Molossops_neglectus,0.17285339332583427
-Myotis_albescens,0.17285339332583427
-Myotis_austroriparius,0.17285339332583427
-Myotis_californicus,0.17285339332583427
-Myotis_chiloensis,0.17285339332583427
-Myotis_evotis,0.17285339332583427
-Myotis_grisescens,0.17285339332583427
-Myotis_leibii,0.17285339332583427
-Myotis_levis,0.17285339332583427
-Myotis_thysanodes,0.17285339332583427
-Myotis_yumanensis,0.17285339332583427
-Nycteris_thebaica,0.17285339332583427
-Nycticeius_humeralis,0.17285339332583427
-Nyctinomops_macrotis,0.17285339332583427
-Philetor_brachypterus,0.17285339332583427
-Pipistrellus_hesperus,0.17285339332583427
-Platyrrhinus_lineatus,0.17285339332583427
-Saccolaimus_flaviventris,0.17285339332583427
-Saccolaimus_saccolaimus,0.17285339332583427
-Tadarida_teniotis,0.17285339332583427
-Vespertilio_murinus,0.17285339332583427
-Taphozous_theobaldi,0.17285339332583427
-Glauconycteris_argentata,0.17285339332583427
-Lonchophylla_robusta,0.17285339332583427
-Lophostoma_silvicolum,0.17285339332583427
-Rhinolophus_hildebrandtii,0.17285339332583427
-Vampyrodes_caraccioli,0.17285339332583427
+Artibeus lituratus,0.3903262092238471
+Eidolon helvum,0.3903262092238471
+Rousettus aegyptiacus,0.3903262092238471
+Rousettus leschenaultii,0.3903262092238471
+Carollia perspicillata,0.3683481872458251
+Cynopterus sphinx,0.3243921432897811
+Eonycteris spelaea,0.3243921432897811
+Micropteropus pusillus,0.3243921432897811
+Miniopterus schreibersii,0.3243921432897811
+Artibeus phaeotis,0.3243921432897811
+Epomops franqueti,0.3243921432897811
+Pteropus alecto,0.3243921432897811
+Epomophorus gambianus,0.30241412131175915
+Hipposideros armiger,0.30241412131175915
+Hipposideros caffer,0.30241412131175915
+Myotis daubentonii,0.30241412131175915
+Pipistrellus pipistrellus,0.30241412131175915
+Pteropus giganteus,0.30241412131175915
+Rhinolophus ferrumequinum,0.30241412131175915
+Cynopterus brachyotis,0.30241412131175915
+Pteronotus parnellii,0.30241412131175915
+Eptesicus serotinus,0.28043609933373714
+Myotis ricketti,0.28043609933373714
+Pipistrellus abramus,0.28043609933373714
+Pipistrellus kuhlii,0.28043609933373714
+Rhinolophus affinis,0.28043609933373714
+Rhinolophus sinicus,0.28043609933373714
+Pteronotus davyi,0.28043609933373714
+Rhinolophus pusillus,0.28043609933373714
+Rousettus amplexicaudatus,0.28043609933373714
+Taphozous perforatus,0.28043609933373714
+Artibeus jamaicensis,0.26944708834472614
+Hipposideros pratti,0.2584580773557152
+Hipposideros ruber,0.2584580773557152
+Hypsugo savii,0.2584580773557152
+Megaloglossus woermanni,0.2584580773557152
+Mops condylurus,0.2584580773557152
+Myotis emarginatus,0.2584580773557152
+Neoromicia capensis,0.2584580773557152
+Rhinolophus clivosus,0.2584580773557152
+Rhinolophus euryale,0.2584580773557152
+Rhinolophus rex,0.2584580773557152
+Rhinopoma hardwickii,0.2584580773557152
+Scotophilus dinganii,0.2584580773557152
+Scotophilus leucogaster,0.2584580773557152
+Triaenops persicus,0.2584580773557152
+Chaerephon plicatus,0.2584580773557152
+Dobsonia moluccensis,0.2584580773557152
+Eidolon dupreanum,0.2584580773557152
+Epomophorus labiatus,0.2584580773557152
+Eumops glaucinus,0.2584580773557152
+Myotis dasycneme,0.2584580773557152
+Nyctalus noctula,0.2584580773557152
+Nyctinomops laticaudatus,0.2584580773557152
+Pipistrellus nathusii,0.2584580773557152
+Pteropus rufus,0.2584580773557152
+Vespertilio sinensis,0.2584580773557152
+Desmodus rotundus,0.24746906636670418
+Glossophaga soricina,0.24746906636670418
+Molossus rufus,0.24746906636670418
+Scotophilus kuhlii,0.24746906636670418
+Sturnira lilium,0.24746906636670418
+Phyllostomus hastatus,0.24746906636670418
+Artibeus obscurus,0.2364800553776932
+Aselliscus stoliczkanus,0.2364800553776932
+Cynopterus horsfieldii,0.2364800553776932
+Dyacopterus spadiceus,0.2364800553776932
+Eptesicus nilssonii,0.2364800553776932
+Hipposideros commersoni,0.2364800553776932
+Hipposideros galeritus,0.2364800553776932
+Ia io,0.2364800553776932
+Megaerops niphanae,0.2364800553776932
+Pipistrellus hesperidus,0.2364800553776932
+Pipistrellus pygmaeus,0.2364800553776932
+Ptenochirus jagori,0.2364800553776932
+Rhinolophus blasii,0.2364800553776932
+Rhinolophus cornutus,0.2364800553776932
+Rhinolophus creaghi,0.2364800553776932
+Rhinolophus hipposideros,0.2364800553776932
+Rhinolophus macrotis,0.2364800553776932
+Rhinolophus mehelyi,0.2364800553776932
+Rhinolophus monoceros,0.2364800553776932
+Rhinolophus pearsonii,0.2364800553776932
+Rhinolophus thomasi,0.2364800553776932
+Rhinonicteris aurantia,0.2364800553776932
+Tylonycteris pachypus,0.2364800553776932
+Eptesicus fuscus,0.2254910443886822
+Myotis lucifugus,0.2254910443886822
+Myotis nigricans,0.2254910443886822
+Tadarida brasiliensis,0.2254910443886822
+Myotis septentrionalis,0.2254910443886822
+Uroderma bilobatum,0.2254910443886822
+Carollia brevicauda,0.20351302241066022
+Chaerephon pumilus,0.20351302241066022
+Hipposideros pomona,0.20351302241066022
+Murina leucogaster,0.20351302241066022
+Hypsignathus monstrosus,0.20351302241066022
+Pteropus poliocephalus,0.20351302241066022
+Pteropus scapulatus,0.20351302241066022
+Nycteris gambiensis,0.20351302241066022
+Myotis keenii,0.20351302241066022
+Molossus molossus,0.20351302241066022
+Cynomops abrasus,0.18153500043263823
+Cynomops planirostris,0.18153500043263823
+Hipposideros abae,0.18153500043263823
+Hipposideros bicolor,0.18153500043263823
+Hipposideros larvatus,0.18153500043263823
+Miniopterus inflatus,0.18153500043263823
+Myotis blythii,0.18153500043263823
+Myotis myotis,0.18153500043263823
+Myotis nattereri,0.18153500043263823
+Myotis riparius,0.18153500043263823
+Myotis velifer,0.18153500043263823
+Myotis volans,0.18153500043263823
+Pipistrellus subflavus,0.18153500043263823
+Pteropus conspicillatus,0.18153500043263823
+Pteropus hypomelanus,0.18153500043263823
+Pteropus lylei,0.18153500043263823
+Pteropus vampyrus,0.18153500043263823
+Lasiurus cinereus,0.18153500043263823
+Phyllostomus discolor,0.18153500043263823
+Platyrrhinus helleri,0.18153500043263823
+Anoura geoffroyi,0.18153500043263823
+Artibeus cinereus,0.18153500043263823
+Barbastella barbastellus,0.18153500043263823
+Mormoops megalophylla,0.18153500043263823
+Myotis mystacinus,0.18153500043263823
+Natalus tumidirostris,0.18153500043263823
+Plecotus auritus,0.18153500043263823
+Taphozous melanopogon,0.18153500043263823
+Rhinolophus eloquens,0.18153500043263823
+Anoura caudifer,0.15955697845461625
+Cardioderma cor,0.15955697845461625
+Chalinolobus gouldii,0.15955697845461625
+Chalinolobus morio,0.15955697845461625
+Falsistrellus mackenziei,0.15955697845461625
+Hipposideros diadema,0.15955697845461625
+Hipposideros gigas,0.15955697845461625
+Hipposideros lekaguli,0.15955697845461625
+Hipposideros vittatus,0.15955697845461625
+Lichonycteris obscura,0.15955697845461625
+Lonchorhina aurita,0.15955697845461625
+Mesophylla macconnelli,0.15955697845461625
+Miniopterus australis,0.15955697845461625
+Miniopterus magnater,0.15955697845461625
+Miniopterus natalensis,0.15955697845461625
+Miniopterus pusillus,0.15955697845461625
+Myotis brandtii,0.15955697845461625
+Myotis capaccinii,0.15955697845461625
+Myotis davidii,0.15955697845461625
+Myotis horsfieldii,0.15955697845461625
+Myotis longipes,0.15955697845461625
+Myotis macropus,0.15955697845461625
+Myotis punicus,0.15955697845461625
+Mystacina tuberculata,0.15955697845461625
+Neoromicia nanus,0.15955697845461625
+Nyctalus lasiopterus,0.15955697845461625
+Nyctalus plancyi,0.15955697845461625
+Pipistrellus coromandra,0.15955697845461625
+Pipistrellus inexspectatus,0.15955697845461625
+Rhinolophus capensis,0.15955697845461625
+Rhinolophus coelophyllus,0.15955697845461625
+Rhinolophus megaphyllus,0.15955697845461625
+Rhinolophus shameli,0.15955697845461625
+Rhinolophus simulator,0.15955697845461625
+Rhinolophus stheno,0.15955697845461625
+Scotophilus nux,0.15955697845461625
+Sturnira erythromos,0.15955697845461625
+Tylonycteris robustula,0.15955697845461625
+Vespadelus baverstocki,0.15955697845461625
+Vespadelus regulus,0.15955697845461625
+Dobsonia anderseni,0.15955697845461625
+Pteropus admiralitatum,0.15955697845461625
+Pteropus capistratus,0.15955697845461625
+Pteropus neohibernicus,0.15955697845461625
+Nycteris nana,0.15955697845461625
+Syconycteris australis,0.15955697845461625
+Carollia subrufa,0.15955697845461625
+Glossophaga commissarisi,0.15955697845461625
+Rhynchonycteris naso,0.15955697845461625
+Sturnira ludovici,0.15955697845461625
+Myonycteris torquata,0.15955697845461625
+Artibeus toltecus,0.15955697845461625
+Hipposideros cineraceus,0.15955697845461625
+Hipposideros lankadiva,0.15955697845461625
+Hipposideros speoris,0.15955697845461625
+Macroglossus minimus,0.15955697845461625
+Mimon crenulatum,0.15955697845461625
+Murina aurata,0.15955697845461625
+Myotis macrodactylus,0.15955697845461625
+Natalus stramineus,0.15955697845461625
+Rhinolophus rouxii,0.15955697845461625
+Scotophilus nigrita,0.15955697845461625
+Sturnira tildae,0.15955697845461625
+Vespadelus pumilus,0.15955697845461625
+Antrozous pallidus,0.15955697845461625
+Artibeus fimbriatus,0.15955697845461625
+Chrotopterus auritus,0.15955697845461625
+Corynorhinus townsendii,0.15955697845461625
+Diaemus youngi,0.15955697845461625
+Diclidurus albus,0.15955697845461625
+Diphylla ecaudata,0.15955697845461625
+Epomophorus wahlbergi,0.15955697845461625
+Epomops dobsonii,0.15955697845461625
+Eptesicus brasiliensis,0.15955697845461625
+Eptesicus diminutus,0.15955697845461625
+Eptesicus furinalis,0.15955697845461625
+Euderma maculatum,0.15955697845461625
+Eumops auripendulus,0.15955697845461625
+Eumops patagonicus,0.15955697845461625
+Eumops perotis,0.15955697845461625
+Glossophaga longirostris,0.15955697845461625
+Glossophaga morenoi,0.15955697845461625
+Histiotus montanus,0.15955697845461625
+Histiotus velatus,0.15955697845461625
+Lasionycteris noctivagans,0.15955697845461625
+Lasiurus blossevillii,0.15955697845461625
+Lasiurus borealis,0.15955697845461625
+Lasiurus ega,0.15955697845461625
+Lasiurus egregius,0.15955697845461625
+Lasiurus intermedius,0.15955697845461625
+Lasiurus seminolus,0.15955697845461625
+Lasiurus xanthinus,0.15955697845461625
+Leptonycteris curasoae,0.15955697845461625
+Leptonycteris nivalis,0.15955697845461625
+Macrotus californicus,0.15955697845461625
+Micronycteris megalotis,0.15955697845461625
+Molossops neglectus,0.15955697845461625
+Myotis albescens,0.15955697845461625
+Myotis austroriparius,0.15955697845461625
+Myotis californicus,0.15955697845461625
+Myotis chiloensis,0.15955697845461625
+Myotis evotis,0.15955697845461625
+Myotis grisescens,0.15955697845461625
+Myotis leibii,0.15955697845461625
+Myotis levis,0.15955697845461625
+Myotis thysanodes,0.15955697845461625
+Myotis yumanensis,0.15955697845461625
+Nycteris thebaica,0.15955697845461625
+Nycticeius humeralis,0.15955697845461625
+Nyctinomops macrotis,0.15955697845461625
+Philetor brachypterus,0.15955697845461625
+Pipistrellus hesperus,0.15955697845461625
+Platyrrhinus lineatus,0.15955697845461625
+Saccolaimus flaviventris,0.15955697845461625
+Saccolaimus saccolaimus,0.15955697845461625
+Tadarida teniotis,0.15955697845461625
+Vespertilio murinus,0.15955697845461625
+Taphozous theobaldi,0.15955697845461625
+Glauconycteris argentata,0.15955697845461625
+Lonchophylla robusta,0.15955697845461625
+Lophostoma silvicolum,0.15955697845461625
+Rhinolophus hildebrandtii,0.15955697845461625
+Vampyrodes caraccioli,0.15955697845461625
