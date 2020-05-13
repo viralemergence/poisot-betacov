@@ -24,7 +24,6 @@ end
 #--- Prepare the network
 
 ALL = mknet(virion)
-
 BATS = mknet(virion[virion.host_order.=="Chiroptera", :])
 
 #--- kNN preparation
@@ -54,10 +53,8 @@ end
 
 #--- Make the folders
 
-knn_path = joinpath(pwd(), "predictions", "knn")
-ispath(knn_path) || mkpath(knn_path)
-lf_path = joinpath(pwd(), "predictions", "linearfilter")
-ispath(lf_path) || mkpath(lf_path)
+predict_path = joinpath(pwd(), "predictions")
+ispath(predict_path) || mkpath(predict_path)
 
 #--- Linear filtering
 
@@ -90,13 +87,13 @@ sort!(lf_all, :score, rev=true)
 sort!(lf_bats, :score, rev=true)
 
 CSV.write(
-    joinpath(lf_path, "PoisotLinearFilter-Bats.csv"),
+    joinpath(predict_path, "PoisotLfBat.csv"),
     lf_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(lf_path, "PoisotLinearFilter-Mammals.csv"),
+    joinpath(predict_path, "PoisotLfMammal.csv"),
     lf_all;
     writeheader=false
 )
@@ -130,14 +127,17 @@ rename!(host_knn_all, :virus => :hostname)
 host_knn_all = host_knn_all[host_knn_all.virusname .== "Betacoronavirus", :]
 sort!(host_knn_all, :match, rev=true)
 
+select!(host_knn_bats, Not(:virusname))
+select!(host_knn_all, Not(:virusname))
+
 CSV.write(
-    joinpath(knn_path, "PoisotTanimotoHosts-Bats.csv"),
+    joinpath(predict_path, "PoisotKnn1Bat.csv"),
     host_knn_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(knn_path, "PoisotTanimotoHosts-Mammals.csv"),
+    joinpath(predict_path, "PoisotKnn1Mammal.csv"),
     host_knn_all;
     writeheader=false
 )
@@ -150,14 +150,17 @@ knn_all = knn_virus(ALL, ALL)
 knn_all = knn_all[knn_all.virus .== "Betacoronavirus", :]
 sort!(knn_all, :match, rev=true)
 
+select!(knn_bats, Not(:virus))
+select!(knn_all, Not(:virus))
+
 CSV.write(
-    joinpath(knn_path, "PoisotTanimotoVirus-Bats.csv"),
+    joinpath(predict_path, "PoisotKnn2Bat.csv"),
     knn_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(knn_path, "PoisotTanimotoVirus-Mammals.csv"),
+    joinpath(predict_path, "PoisotKnn2Mammal.csv"),
     knn_all;
     writeheader=false
 )
