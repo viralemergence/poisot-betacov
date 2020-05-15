@@ -26,6 +26,23 @@ end
 ALL = mknet(virion)
 BATS = mknet(virion[virion.host_order.=="Chiroptera", :])
 
+#--- Write the edgelists for debugging
+
+function write_edgelist(f, N)
+    T = last(eltype(N))
+    el = DataFrame(from = T[], to = T[])
+    for i in interactions(N)
+        if i.from == "Betacoronavirus"
+            push!(el, (i.from, i.to))
+        end
+    end
+    sort!(el, :to)
+    CSV.write(f, el; writeheader=false)
+end
+
+write_edgelist(joinpath("edgelists", "known-betacov-bats.csv"), BATS)
+write_edgelist(joinpath("edgelists", "known-betacov-mammals.csv"), ALL)
+
 #--- kNN preparation
 
 function tanimoto(x::Set{T}, y::Set{T}) where {T}
