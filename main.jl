@@ -5,7 +5,7 @@ using StatsBase
 
 #--- Load the data and aggregate everything
 
-virion = CSV.read(joinpath("data", "virionette.csv"))
+virion = DataFrame(CSV.File(joinpath("data", "virionette.csv")))
 
 #--- Function to make a network
 
@@ -29,7 +29,7 @@ BATS = mknet(virion[virion.host_order.=="Chiroptera", :])
 #--- Write the edgelists for debugging
 
 function write_edgelist(f, N)
-    T = last(eltype(N))
+    T = eltype(species(N))
     el = DataFrame(from = T[], to = T[])
     for i in interactions(N)
         if i.from == "Betacoronavirus"
@@ -126,7 +126,7 @@ function Base.transpose(N::T) where {T <: EcologicalNetworks.AbstractBipartiteNe
     return Y
 end
 
-host_knn_bats = knn_virus(transpose(BATS), transpose(BATS))
+host_knn_bats = knn_virus(permutedims(BATS), permutedims(BATS))
 
 rename!(host_knn_bats, :host => :virusname)
 rename!(host_knn_bats, :virus => :hostname)
@@ -136,7 +136,7 @@ sort!(host_knn_bats, :match, rev=true)
 
 
 
-host_knn_all = knn_virus(transpose(ALL), transpose(ALL))
+host_knn_all = knn_virus(permutedims(ALL), permutedims(ALL))
 
 rename!(host_knn_all, :host => :virusname)
 rename!(host_knn_all, :virus => :hostname)
