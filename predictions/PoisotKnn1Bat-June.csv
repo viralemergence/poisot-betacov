@@ -20,6 +20,7 @@ Mops condylurus,1.0
 Myotis daubentonii,1.0
 Myotis emarginatus,1.0
 Myotis horsfieldii,1.0
+Myotis punicus,1.0
 Myotis ricketti,1.0
 Neoromicia capensis,1.0
 Pipistrellus abramus,1.0
@@ -30,7 +31,9 @@ Rhinolophus affinis,1.0
 Rhinolophus clivosus,1.0
 Rhinolophus euryale,1.0
 Rhinolophus rex,1.0
+Rhinolophus shameli,1.0
 Rhinolophus sinicus,1.0
+Rhinolophus stheno,1.0
 Rhinopoma hardwickii,1.0
 Rousettus leschenaultii,1.0
 Scotophilus dinganii,1.0
@@ -78,16 +81,21 @@ Rousettus amplexicaudatus,1.0
 Tylonycteris pachypus,1.0
 Vespertilio sinensis,1.0
 Pteropus lylei,1.0
+Nycteris gambiensis,1.0
 Macroglossus minimus,1.0
 Plecotus auritus,1.0
 Tadarida teniotis,1.0
 Lissonycteris angolensis,1.0
 Scotophilus heathii,1.0
+Rhinolophus malayanus,1.0
+Hypsugo pulveratus,1.0
 Nanonycteris veldkampii,1.0
+Rhinolophus acuminatus,1.0
 Myotis pequinius,1.0
 Megaerops kusnotoi,1.0
 Pipistrellus deserti,1.0
 Nycteris macrotis,1.0
+Pteronotus personatus,1.0
 Carollia sowelli,1.0
 Artibeus jamaicensis,0.8
 Carollia perspicillata,0.8
@@ -100,6 +108,8 @@ Glauconycteris argentata,0.8
 Desmodus rotundus,0.6
 Artibeus phaeotis,0.6
 Taphozous perforatus,0.6
+Nycteris nana,0.6
+Syconycteris australis,0.6
 Phyllostomus hastatus,0.6
 Murina leucogaster,0.4
 Dobsonia anderseni,0.4
@@ -107,8 +117,6 @@ Pteropus admiralitatum,0.4
 Pteropus capistratus,0.4
 Pteropus neohibernicus,0.4
 Pteropus poliocephalus,0.4
-Nycteris nana,0.4
-Syconycteris australis,0.4
 Taphozous theobaldi,0.4
 Glossophaga soricina,0.2
 Hipposideros abae,0.2

@@ -5,7 +5,7 @@ using StatsBase
 
 #--- Load the data and aggregate everything
 
-virion = DataFrame(CSV.File(joinpath("data", "virionette.csv")))
+virion = DataFrame(CSV.File(joinpath("data", "virionetteJune.csv")))
 
 #--- Function to make a network
 
@@ -40,8 +40,8 @@ function write_edgelist(f, N)
     CSV.write(f, el; writeheader=false)
 end
 
-write_edgelist(joinpath("edgelists", "known-betacov-bats.csv"), BATS)
-write_edgelist(joinpath("edgelists", "known-betacov-mammals.csv"), ALL)
+write_edgelist(joinpath("edgelists", "known-betacov-bats-June.csv"), BATS)
+write_edgelist(joinpath("edgelists", "known-betacov-mammals-June.csv"), ALL)
 
 #--- kNN preparation
 
@@ -104,13 +104,13 @@ sort!(lf_all, :score, rev=true)
 sort!(lf_bats, :score, rev=true)
 
 CSV.write(
-    joinpath(predict_path, "PoisotLfBat.csv"),
+    joinpath(predict_path, "PoisotLfBat-June.csv"),
     lf_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(predict_path, "PoisotLfMammal.csv"),
+    joinpath(predict_path, "PoisotLfMammal-June.csv"),
     lf_all;
     writeheader=false
 )
@@ -148,13 +148,13 @@ select!(host_knn_bats, Not(:virusname))
 select!(host_knn_all, Not(:virusname))
 
 CSV.write(
-    joinpath(predict_path, "PoisotKnn1Bat.csv"),
+    joinpath(predict_path, "PoisotKnn1Bat-June.csv"),
     host_knn_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(predict_path, "PoisotKnn1Mammal.csv"),
+    joinpath(predict_path, "PoisotKnn1Mammal-June.csv"),
     host_knn_all;
     writeheader=false
 )
@@ -171,13 +171,13 @@ select!(knn_bats, Not(:virus))
 select!(knn_all, Not(:virus))
 
 CSV.write(
-    joinpath(predict_path, "PoisotKnn2Bat.csv"),
+    joinpath(predict_path, "PoisotKnn2Bat-June.csv"),
     knn_bats;
     writeheader=false
 )
 
 CSV.write(
-    joinpath(predict_path, "PoisotKnn2Mammal.csv"),
+    joinpath(predict_path, "PoisotKnn2Mammal-June.csv"),
     knn_all;
     writeheader=false
 )
